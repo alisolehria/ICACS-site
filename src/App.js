@@ -7,6 +7,9 @@ import './App.css';
 
 
 class App extends React.Component {
+  componentDidMount() {
+  document.title = 'ICACS';
+}
    render() {
       return (
          <div>
