@@ -155,3 +155,9 @@ h1, h2 {
 
     /* the rest of your styling */
 }
+
+
+.callPapers{
+  text-align: left;
+  color: black;
+}

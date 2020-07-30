@@ -138,7 +138,7 @@ class CallForPapers extends React.Component {
          
          <section id="dark-bg">
       <div class = "container">
-<div id = "call">
+<div id = "call" class = "callPapers">
 
       <h2>Call for Papers</h2>
     
