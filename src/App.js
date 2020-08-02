@@ -60,7 +60,7 @@ class Navbar extends React.Component {
 <div id = "testing1">
 <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg" style={this.state.bgColor}>
     <div class="container">
-        <a class="navbar-brand" href="#top-content">Conference Name</a>
+        <a class="navbar-brand" href="#top-content">ICACS 2021</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -135,7 +135,7 @@ The International Conference on Applied CyberSecurity (ACS) aims to bring togeth
 class CallForPapers extends React.Component {
   render(){
     return (
-         
+          <ScrollableAnchor id={'prevConf'}>
          <section id="dark-bg">
       <div class = "container">
 <div id = "call" class = "callPapers">
@@ -241,7 +241,7 @@ Authors Kit: https://ieeeauthorcenter.ieee.org/
 </div> 
 
 </section>
-            
+            </ScrollableAnchor>   
       );
   }
 }
