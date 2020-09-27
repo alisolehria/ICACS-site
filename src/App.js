@@ -3,24 +3,27 @@ import ReactDOM from 'react-dom'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import DateCountdown from 'react-date-countdown-timer';
 import logo from './logo.svg';
+import carouselPic1 from './assets/top-content-new.jpg';
+import ScrollIntoView from "./components/ScrollIntoView";
 import './App.css';
+import {
+  HashRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-
-class App extends React.Component {
+class Home extends React.Component {
   componentDidMount() {
   document.title = 'ICACS';
 }
    render() {
       return (
          <div>
-            <Navbar/>
+            
 
             <TopContent/>
-            <CallForPapers/>
-            <PreviousConferences/>
-            <TechnicalCommitee/>
-            <Organizers/>
-            <PreviousListings/>
+
          </div>
       );
    }
@@ -57,37 +60,68 @@ class Navbar extends React.Component {
 
    render() {
       return (
+           <Router>
 <div id = "testing1">
 <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg" style={this.state.bgColor}>
     <div class="container">
-        <a class="navbar-brand" href="#top-content">ICACS 2021</a>
+        <Link class="navbar-brand" to="/">ICACS 2021</Link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-            
+                              <li class="nav-item">
+             <Link class="nav-link scroll-link"  to="/">Home</Link>
+                </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#call">Call for Papers</a>
+                   <Link class="nav-link scroll-link"  to="/callforpapers">Call for Papers</Link>
+                </li>
+                 <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Commitee
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Organizers</a>
+          <a class="dropdown-item" href="#">Technical Commitee</a>
+        </div>
+          </li>
+  
+                <li class="nav-item">
+                    <a class="nav-link scroll-link" href="#organizers">Important Dates</a>
                 </li>
                  <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#prevConf">Previous Conferences</a>
+                    <a class="nav-link scroll-link" href="#prevList">Program</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#tech">Technical Commitee</a>
+                     <li class="nav-item">
+                    <a class="nav-link scroll-link" href="#prevList">Registration</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#organizers">Organizers</a>
-                </li>
-                 <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#prevList">Previous Listings</a>
-                </li>
+                                      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Venue
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">How to get here</a>
+          <a class="dropdown-item" href="#">Local Attractions</a>
+        </div>
+          </li>
 
             </ul>
         </div>
     </div>
 </nav>
 </div>
+    <ScrollIntoView>
+  <Switch>
+           <Route exact path="/">
+            <Home/>
+          </Route>
+          <Route exact path="/callforpapers">
+            <CallForPapers/>
+          </Route>
+          
+        </Switch>
+              </ScrollIntoView>
+  </Router>
       );
    }
 }
@@ -132,15 +166,39 @@ The International Conference on Applied CyberSecurity (ACS) aims to bring togeth
 }
 
 
-class CallForPapers extends React.Component {
+class PageCarousel extends React.Component{
+  
   render(){
     return (
-          <ScrollableAnchor id={'prevConf'}>
+     <div class="home_container" id="top-content">
+        <div class="container">
+ 
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text">
+                <h1 class="wow fadeInLeftBig">    <span style={{color: 'white'}}>{this.props.title}</span></h1>
+             
+   </div>
+</div>
+</div>
+ </div>
+      )
+  }
+}
+
+
+class CallForPapers extends React.Component {
+    componentDidMount() {
+    document.title = "Call For Papers";
+  }
+  render(){
+    return (  
+<div>
+       <PageCarousel title="Call For Papers"/>
          <section id="dark-bg">
       <div class = "container">
 <div id = "call" class = "callPapers">
 
-      <h2>Call for Papers</h2>
+   
     
       <div class = "row">
   <h3>Conference Topics</h3>
@@ -240,7 +298,7 @@ class CallForPapers extends React.Component {
 </div> 
 
 </section>
-            </ScrollableAnchor>   
+ </div>
       );
   }
 }
@@ -356,4 +414,4 @@ class PreviousListings extends React.Component {
   }
 }
 
-export default App;
+export default Navbar;

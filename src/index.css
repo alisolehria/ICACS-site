@@ -161,3 +161,35 @@ h1, h2 {
   text-align: left;
   color: black;
 }
+
+
+.home_container {
+  background-image: url("./assets/page-carousel.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+    padding: 210px 0;
+}
+ 
+.home_container .text {
+    color: #fff;
+}
+ 
+.home_container .text h1 {
+    margin-top: 25px;
+    color: #fff;
+}
+ 
+.home_container .description {
+    margin: 30px 0 10px 0;
+}
+ 
+.home_container .description p {
+    opacity: 0.8;
+}
+ 
+.home_container .top-big-link {
+    margin-top: 45px;
+}
+
+
