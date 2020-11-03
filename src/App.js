@@ -239,6 +239,7 @@ class CallForPapers extends React.Component {
             <li>Internet of Things Security</li>
             <li>Security and privacy policies and metrics</li>
             <li>Security architectures</li>
+            <li>Smart Cities Security</li>
       </ul>
 </div>
 <div class = "row">
@@ -251,7 +252,8 @@ class CallForPapers extends React.Component {
      Machine learning applications to security and data-driven security, AI security, 5G security, Internet of Things Security, Cloud security, Operational technology security, Cyber physical systems security </li>
      <li><h4>Ethical hacking and Digital forensics</h4>Malware and unwanted software, Source code and binaries security, Vulnerability Assessment and Security Assessment, multimedia security, mobile, watermarking & data hiding, denial-of-service attacks and countermeasures</li>
      <li><h4>Information Security Management</h4>Governance, risk management, security policies, compliance, operations, incident management, usability & human factors, Security and privacy policies and metrics, Threat Modelling, IT security laws and policies, security awareness, education and training, access management</li>
-     <li><h4>Secure Infrastructure</h4>Network and wireless security, web security, mobile security & privacy, distributed systems security, anonymity and privacy, intrusion and anomaly detection and prevention, OS security, infrastructure security, authentication and authorization, biometrics, secure computer architectures, blockchains and distributed ledger security, social network security, application security, cryptography applications, security architectures, embedded systems security</li>
+     <li><h4>Secure Infrastructure</h4>
+     Network and wireless security, smart cities security, web security, mobile security & privacy, distributed systems security, anonymity and privacy, intrusion and anomaly detection and prevention, OS security, infrastructure security, authentication and authorization, biometrics, secure computer architectures, blockchains and distributed ledger security, social network security, application security, cryptography applications, security architectures, embedded systems security</li>
      </ul>
     </div>
       <div class = "row">
