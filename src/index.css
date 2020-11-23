@@ -193,3 +193,15 @@ h1, h2 {
 }
 
 
+.event{
+  padding-top: 5%;
+  text-align: left;
+}
+
+.event p{
+  font-weight:  bold;
+}
+
+.event h2{
+  text-align: left;
+}

@@ -35,7 +35,7 @@ class Navbar extends React.Component {
     super(props);
     this.handleScroll = this.handleScroll.bind(this);
     this.state ={
-      bgColor :  { background: "rgba(0, 0, 0, 0.5)"}
+      bgColor :  { background: "rgba(0, 0, 0, 0.8)"}
     };
   }
 
@@ -51,7 +51,7 @@ class Navbar extends React.Component {
   handleScroll(event) {
     //this.state(bgColor : { background: "rgba(0, 0, 0, 1)"})
     this.setState({
-      bgColor : { background: "rgba(1, 1, 1, 1)"}
+      bgColor : { background: "rgba(0, 0, 0, 0.8)"}
     }
     );
   }
@@ -87,7 +87,7 @@ class Navbar extends React.Component {
           </li>
   
                 <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#organizers">Important Dates</a>
+                    <Link class="nav-link scroll-link"  to="/importantdates">Important Dates</Link>
                 </li>
                  <li class="nav-item">
                     <a class="nav-link scroll-link" href="#prevList">Program</a>
@@ -117,6 +117,9 @@ class Navbar extends React.Component {
           </Route>
           <Route exact path="/callforpapers">
             <CallForPapers/>
+          </Route>
+           <Route exact path="/importantdates">
+            <ImportantDates/>
           </Route>
           
         </Switch>
@@ -300,6 +303,108 @@ class CallForPapers extends React.Component {
 </div> 
 
 </section>
+ </div>
+      );
+  }
+}
+
+class ImportantDates extends React.Component {
+    componentDidMount() {
+    document.title = "Important Dates";
+  }
+  render(){
+    return (  
+<div>
+<PageCarousel title="Important Dates"/>
+<div class="container">
+<div id = "call" class = "callPapers">
+<div class="row">
+
+<div class="col">
+<div class="row" id="dateHeader">
+
+<h3>Paper Submission Dates</h3>
+</div>
+
+<div class="event">
+<p>Conference paper/ contribution deadline</p>
+<h2>1st June 2021</h2>
+</div>
+
+
+<div class="event">
+<p>Poster/Abstract Submission Date</p>
+<h2>20th June 2021</h2>
+</div>
+
+<div class="event">
+<p>Conference paper notification</p>
+<h2>15th July 2021</h2>
+</div>
+
+
+<div class="event">
+<p>Camera Ready Submission (Strict)</p>
+<h2>25th July, 2021</h2>
+
+</div>
+
+</div>
+
+<div class="col">
+<div class="row">
+
+<h3>Workshop/Special Session Dates</h3>
+</div>
+<div class="event">
+<p>Workshop/Special Session Proposal</p>
+<h2>5th May, 2021</h2>
+</div>
+
+
+<div class="event">
+<p>Notification of Workshop/Special Acceptance</p>
+<h2>5th June, 2021</h2>
+</div>
+
+<div class="event">
+<p>Workshop Final Information and Program Committee:</p>
+<h2>15th June, 2021</h2>
+</div>
+
+
+<div class="event">
+<p>Deadline for paper submission</p>
+<h2>5th July, 2021</h2>
+
+</div>
+
+
+<div class="event">
+<p>Notification of Acceptance</p>
+<h2>25th July, 2021</h2>
+
+</div>
+
+<div class="event">
+<p>Camera ready paper and registration (Strict)</p>
+<h2>30th July, 2021</h2>
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+ </div>
+ </div>
  </div>
       );
   }
