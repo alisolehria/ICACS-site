@@ -15,7 +15,7 @@ import {
 
 class Home extends React.Component {
   componentDidMount() {
-  document.title = 'ICACS';
+  document.title = 'ACS';
 }
    render() {
       return (
