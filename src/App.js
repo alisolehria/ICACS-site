@@ -278,13 +278,9 @@ class CallForPapers extends React.Component {
   <h3>Paper Submission</h3> 
    </div>
 <div class = "row">
-<p>We use EDAS/EasyChair for submission.   
-“Authors need to:  </p>
+<p>We use EasyChair for paper submission. The submission link is: &nbsp;</p>  <a href = "https://easychair.org/conferences/?conf=acs21" target = "_blank"> https://easychair.org/conferences/?conf=acs21</a> 
 
-<ol>
-  <li>Create an account (if not already registered) with EDAS at <a href = "https://confName.edas.info/" target = "_blank">https://confName.edas.info/</a> </li> 
-  <li>Submission link: <a href = "https://edas.info/newPaper.php?c=27554" target = "_blank"> https://edas.info/newPaper.php?c=27554 </a></li>
-</ol>
+
 </div>
 </div>
    
