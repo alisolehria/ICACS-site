@@ -20,7 +20,7 @@ class Home extends React.Component {
    render() {
       return (
          <div>
-            
+
 
             <TopContent/>
 
@@ -81,11 +81,17 @@ class Navbar extends React.Component {
           Commitee
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Organizers</a>
-          <a class="dropdown-item" href="#">Technical Commitee</a>
+        <li class="nav-item">
+            <Link class="dropdown-item"  to="/organisers">Organisers</Link>
+        </li>
+
+          <li class="nav-item">
+              <Link class="dropdown-item"  to="/technicalcommitee">Techincal Commitee</Link>
+          </li>
+
         </div>
           </li>
-  
+
                 <li class="nav-item">
                     <Link class="nav-link scroll-link"  to="/importantdates">Important Dates</Link>
                 </li>
@@ -121,7 +127,13 @@ class Navbar extends React.Component {
            <Route exact path="/importantdates">
             <ImportantDates/>
           </Route>
-          
+          <Route exact path="/technicalcommitee">
+           <TechnicalCommitee/>
+         </Route>
+         <Route exact path="/organisers">
+          <Organisers/>
+        </Route>
+
         </Switch>
               </ScrollIntoView>
   </Router>
@@ -133,10 +145,10 @@ class Navbar extends React.Component {
 class TopContent extends React.Component {
   render(){
     return (
-      
+
       <div class="top-content" id="top-content">
         <div class="container">
- 
+
         <div class="row">
             <div class="col-md-8 offset-md-2 text">
                 <h1 class="wow fadeInLeftBig"> International Conference on Applied CyberSecurity (ACS) 2021</h1>
@@ -149,8 +161,8 @@ The International Conference on Applied CyberSecurity (ACS) aims to bring togeth
 
 <p>“Submitted papers must not substantially overlap with papers that have been published or that are simultaneously submitted to a journal or a conference/workshop with proceedings.”                     </p>
                 </div>
-         
-            
+
+
    </div>
 
    </div>
@@ -164,23 +176,23 @@ The International Conference on Applied CyberSecurity (ACS) aims to bring togeth
    </div>
 
  </div>
-            
+
       );
   }
 }
 
 
 class PageCarousel extends React.Component{
-  
+
   render(){
     return (
      <div class="home_container" id="top-content">
         <div class="container">
- 
+
         <div class="row">
             <div class="col-md-8 offset-md-2 text">
                 <h1 class="wow fadeInLeftBig">    <span style={{color: 'white'}}>{this.props.title}</span></h1>
-             
+
    </div>
 </div>
 </div>
@@ -195,15 +207,15 @@ class CallForPapers extends React.Component {
     document.title = "Call For Papers";
   }
   render(){
-    return (  
+    return (
 <div>
        <PageCarousel title="Call For Papers"/>
          <section id="dark-bg">
       <div class = "container">
 <div id = "call" class = "callPapers">
 
-   
-    
+
+
       <div class = "row">
   <h3>Conference Topics</h3>
   </div>
@@ -247,10 +259,10 @@ class CallForPapers extends React.Component {
       </ul>
 </div>
 <div class = "row">
-  <h3>Conference Tracks</h3>
+  <h3>Conference Themes</h3>
    </div>
    <div class = "row">
-     <p>The above topics are organized into tracks as follows:</p>
+     <p>The above topics are organized into themes as follows:</p>
      <ul>
      <li><h4>Industry 4.0 Security & AI</h4>
      Machine learning applications to security and data-driven security, AI security, 5G security, Internet of Things Security, Cloud security, Operational technology security, Cyber physical systems security </li>
@@ -262,16 +274,32 @@ class CallForPapers extends React.Component {
     </div>
 
 <div class = "row">
-  <h3>Paper Submission</h3> 
+  <h3>Paper and Poster Submission</h3>
    </div>
 <div class = "row">
-<p>We use EasyChair for paper submission. The submission link is: &nbsp;</p>  <a href = "https://easychair.org/conferences/?conf=acs21" target = "_blank"> https://easychair.org/conferences/?conf=acs21</a> 
+<p>Your submitted work can either be a full-length paper, short paper, or a poster.
+
+Full-length papers are limited to 10 pages and present mature work.
+
+Short papers are limited to 7 pages and contain intermediary results that might not have been extentsively evaluated.
+
+Both types of papers are to be submitted to the EasyChair. The submission link is:  <a href = "https://easychair.org/conferences/?conf=acs21" target = "_blank"> https://easychair.org/conferences/?conf=acs21</a>
+</p>
+<p>
+Posters are for graduate and post-graduate students work. It could represent your degree project (graduation not earlier than April 2019), or a project you did while you are/were a student (graduation not earlier than April 2021). Posters use the A1 format. They will not be published in the conference proceedings.
+
+
+</p>
+
+<p>
+All submitted work should be original; not previously or currently submitted for publication elsewhere.
+</p>
 
 
 </div>
 </div>
-   
-</div> 
+
+</div>
 
 </section>
  </div>
@@ -284,7 +312,7 @@ class ImportantDates extends React.Component {
     document.title = "Important Dates";
   }
   render(){
-    return (  
+    return (
 <div>
 <PageCarousel title="Important Dates"/>
 <div class="container">
@@ -299,25 +327,21 @@ class ImportantDates extends React.Component {
 </div>
 
 <div class="event">
-<p>Conference paper/ contribution deadline</p>
+<p>Paper submission deadline</p>
 <h2>1st June 2021</h2>
 </div>
 
 
-<div class="event">
-<p>Poster/Abstract Submission Date</p>
-<h2>20th June 2021</h2>
-</div>
 
 <div class="event">
-<p>Conference paper notification</p>
+<p>Paper acceptance notification</p>
 <h2>15th July 2021</h2>
 </div>
 
 
 <div class="event">
-<p>Camera Ready Submission (Strict)</p>
-<h2>25th July, 2021</h2>
+<p>Camera-ready submission (strict)</p>
+<h2>25th July 2021</h2>
 
 </div>
 
@@ -326,43 +350,20 @@ class ImportantDates extends React.Component {
 <div class="col">
 <div class="row">
 
-<h3>Workshop/Special Session Dates</h3>
+<h3>Poster Session Dates</h3>
 </div>
 <div class="event">
-<p>Workshop/Special Session Proposal</p>
-<h2>5th May, 2021</h2>
+<p>Poster/Abstract Submission Date</p>
+<h2>20th June 2021</h2>
 </div>
 
-
-<div class="event">
-<p>Notification of Workshop/Special Acceptance</p>
-<h2>5th June, 2021</h2>
-</div>
-
-<div class="event">
-<p>Workshop Final Information and Program Committee:</p>
-<h2>15th June, 2021</h2>
-</div>
 
 
 <div class="event">
-<p>Deadline for paper submission</p>
-<h2>5th July, 2021</h2>
-
+<p>Poster acceptance notification</p>
+<h2>15th July 2021</h2>
 </div>
 
-
-<div class="event">
-<p>Notification of Acceptance</p>
-<h2>25th July, 2021</h2>
-
-</div>
-
-<div class="event">
-<p>Camera ready paper and registration (Strict)</p>
-<h2>30th July, 2021</h2>
-
-</div>
 
 
 
@@ -388,7 +389,7 @@ class PreviousConferences extends React.Component {
   render(){
     return (
          <ScrollableAnchor id={'prevConf'}>
-         
+
       <div class = "container">
 <div id = "call">
 
@@ -401,68 +402,127 @@ class PreviousConferences extends React.Component {
 
         Vivamus elementum neque et mi tristique, at porttitor turpis mattis. Proin id urna magna. Curabitur egestas dolor eget faucibus suscipit. Fusce sit amet blandit ante. In a metus at nisi dictum euismod quis eget magna. Etiam eu ex justo. Duis a nulla et nibh auctor commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
       </div>
-</div> 
 </div>
-            </ScrollableAnchor>   
+</div>
+            </ScrollableAnchor>
       );
   }
 }
 
 
 class TechnicalCommitee extends React.Component {
-  render(){
-    return (
-         <ScrollableAnchor id={'tech'}>
-  <section id="dark-bg">
-      <div class = "container">
-<div id = "call">
+  componentDidMount() {
+  document.title = "Technical Commitee";
+}
+render(){
+  return (
+<div>
+     <PageCarousel title="Techincal Commitee"/>
+       <section id="dark-bg">
+    <div class = "container">
+<div id = "call" class = "callPapers">
 
-      <h2>Technical Commitee</h2>
 
-      <div class = "row">
-      <div class = "col-sm-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget sem in nunc tempor iaculis sit amet ullamcorper neque. Sed lectus ex, vulputate vel ultricies vitae, gravida vel quam. Nunc aliquet fermentum sodales. Quisque mollis sit amet eros a euismod. Praesent non turpis volutpat, elementum quam ac, lobortis turpis. Nam nec ultrices turpis, volutpat sodales nibh. Nam tristique et libero quis varius. Pellentesque pulvinar enim in dolor venenatis, sit amet iaculis tellus malesuada. Phasellus eget pellentesque enim, at iaculis libero. Vestibulum semper, enim et semper tempus, turpis eros maximus sapien, sit amet semper augue nunc quis nisl.
-        </p></div>
-           <div class = "col-sm-4">
-        <p>
-        Ut tristique diam hendrerit turpis ullamcorper, quis sagittis urna tempus. Duis egestas libero a ex fermentum, vitae fermentum libero interdum. Sed tempor libero libero. Suspendisse ut volutpat eros, facilisis dapibus enim. Integer varius, velit eget dignissim faucibus, dui orci accumsan elit, id tincidunt enim purus et mi. Vivamus pellentesque egestas tortor et varius. Integer vehicula risus quis odio aliquet tincidunt. Fusce euismod eros purus, ac bibendum dui tempor ac. In id nisi lorem.
- </p></div>
- <div class = "col-sm-4">
-        <p>
-        Vivamus elementum neque et mi tristique, at porttitor turpis mattis. Proin id urna magna. Curabitur egestas dolor eget faucibus suscipit. Fusce sit amet blandit ante. In a metus at nisi dictum euismod quis eget magna. Etiam eu ex justo. Duis a nulla et nibh auctor commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-         </p></div>
-      </div>
-</div> 
+
+    <div class = "row">
+
 </div>
+<div class ="row">
+
+      <ul>
+       <li>Dr. Sebastiano Panichella, Zurich University of Applied Science, Switzerland</li>
+        <li>Prof. Abdelmadjid BouabdAllah, University of technology of compiegne, France</li>
+        <li>Dr. Eduard Paul Enoiu, Mälardalen University, Sweden</li>
+        <li>Dr. Mohamed Wiem Mkaouer, Rochester Institute of Technology, New York, United State</li>
+<li>Dr. Arif Ali Khan, Nanjing University of Aeronautics and Astronautics, China</li>
+<li>Dr. Rashid Naseem, Pak-Austria Fachhochschule Institute of Applied Sciences and Technology, Pakistan</li>
+<li>Dr. Monther Aldwairi,  Zayed University, United Arab Emirates</li>
+<li>Dr. Djedjiga Mouheb, University of Sharjah, United Arab Emirates</li>
+<li>Dr. Mike Just, Heriot-Watt University, UK</li>
+<li>Dr. Samia Loucif, Zayed University</li>
+<li>Prof. Mohammed Ould Khaoua, University of Blida, Algeria</li>
+<li>Salih Ismail, Curtin University, UAE</li>
+<li>Dr. Baber Majid Bhatti, University of South Australia.</li>
+<li>Dr. Qasem Obeidat, University of Bahrain, Bahrain.</li>
+<li>Dr. Nasir Mehmood Minhas, Blekinge Institute of Technology, Sweden</li>
+<li>Dr. Muhammad Usman, Blekinge Institute of Technology, Sweden</li>
+<li>Dr. Hajira Jabeen, University of Cologne, Germany</li>
+<li>Dr. Babar Shah, Zayed University, United Arab Emirates</li>
+<li>Dr. Adel Ammar, Prince Sultan University, Saudi Arabia</li>
+<li>Dr. Fernando Moreira, Portucalense University, Portugal</li>
+<li>Dr. Toqeer Ali Syed, Islamic University of Medina, Saudi Arabia</li>
+<li>Dr. Abdul Rauf, RISE-Research Institute of Sweden in Vasteras,Sweden</li>
+<li>Dr. Imran Ahmad Mughal, Institute of Management Sciences, Pakistan</li>
+<li>Dr. Adnan Amin, Institute of Management Sciences, Pakistan</li>
+<li>Dr. Awais Adnan, Institute of Management Sciences, Pakistan</li>
+<li>Dr. Zahoor Jan, Islamia College University Peshawar, Pakistan</li>
+<li>Dr. Salma Noor, Shaheed Benazir Bhutto Women University Peshawar, Pakistan</li>
+<li>Dr. Neelam Gohar, Shaheed Benazir Bhutto Women University Peshawar, Pakistan</li>
+<li>Dr. Imran Razzak, Deakin University, Australia</li>
+<li>Dr. Muhammad Ramzan, Saudi Electronic University, Saudi Arabia</li>
+<li>Dr. Gule Saman, Herriot-Watt University, UK</li>
+<li>Dr. Irfan Mehmood, University of Bradford, UK</li>
+<li>Dr. Khan Muhammad, Sejong University, South Korea</li>
+<li>Dr. Asad Khattak, Zayed University, UAE</li>
+<li>Dr. Wajahat Ali Khan, University of Derby, UK</li>
+<li>Dr. Zunera Jalil, Air University Islamabad, Pakistan</li>
+<li>Dr. Asad Habib, Kohat university of science and technology, Kohat,Pakistan</li>
+<li>Dr. Ibrar Ahmad, University of Peshawar</li>
+<li>Dr. Shah Nazir, University of Swabi, Pakistan</li>
+<li>Dr. Jamil Ahmad, Islamia College University Peshawar, Pakistan</li>
+<li>Dr. Zahid haleem, Ghulam Ishaq Institute of Engineering Sciences and Technology, Pakistan</li>
+<li>Dr. Ahmad Khan, Comsats University Islamabad, Abbotabad Campus, Pakistan</li>
+<li>Dr. Mohsin Bilal, University of Warwick, UK</li>
+<li>Dr. Hassan Ali Khattak, Comsat University Islamabad, Pakistan</li>
+
+
+    </ul>
+</div>
+
+</div>
+
+</div>
+
 </section>
-            </ScrollableAnchor>   
-      );
+</div>
+    );
+
+
   }
 }
 
 
-class Organizers extends React.Component {
-  render(){
-    return (
-         <ScrollableAnchor id={'organizers'}>
-          
-      <div class = "container">
-<div id = "call">
+class Organisers extends React.Component {
+  componentDidMount() {
+  document.title = "Organisers";
+}
+render(){
+  return (
+<div>
+     <PageCarousel title="Organisers"/>
+       <section id="dark-bg">
+    <div class = "container">
+<div id = "call" class = "callPapers">
 
-      <h2>Organizers</h2>
 
-      <div class = "row">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget sem in nunc tempor iaculis sit amet ullamcorper neque. Sed lectus ex, vulputate vel ultricies vitae, gravida vel quam. Nunc aliquet fermentum sodales. Quisque mollis sit amet eros a euismod. Praesent non turpis volutpat, elementum quam ac, lobortis turpis. Nam nec ultrices turpis, volutpat sodales nibh. Nam tristique et libero quis varius. Pellentesque pulvinar enim in dolor venenatis, sit amet iaculis tellus malesuada. Phasellus eget pellentesque enim, at iaculis libero. Vestibulum semper, enim et semper tempus, turpis eros maximus sapien, sit amet semper augue nunc quis nisl.
 
-        Ut tristique diam hendrerit turpis ullamcorper, quis sagittis urna tempus. Duis egestas libero a ex fermentum, vitae fermentum libero interdum. Sed tempor libero libero. Suspendisse ut volutpat eros, facilisis dapibus enim. Integer varius, velit eget dignissim faucibus, dui orci accumsan elit, id tincidunt enim purus et mi. Vivamus pellentesque egestas tortor et varius. Integer vehicula risus quis odio aliquet tincidunt. Fusce euismod eros purus, ac bibendum dui tempor ac. In id nisi lorem.
+    <div class = "row">
 
-        Vivamus elementum neque et mi tristique, at porttitor turpis mattis. Proin id urna magna. Curabitur egestas dolor eget faucibus suscipit. Fusce sit amet blandit ante. In a metus at nisi dictum euismod quis eget magna. Etiam eu ex justo. Duis a nulla et nibh auctor commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
-      </div>
-</div> 
+</div>
+<div class ="row">
+
+
 </div>
 
-            </ScrollableAnchor>   
-      );
+</div>
+
+</div>
+
+</section>
+</div>
+    );
+
+
   }
 }
 
@@ -485,10 +545,10 @@ class PreviousListings extends React.Component {
 
         Vivamus elementum neque et mi tristique, at porttitor turpis mattis. Proin id urna magna. Curabitur egestas dolor eget faucibus suscipit. Fusce sit amet blandit ante. In a metus at nisi dictum euismod quis eget magna. Etiam eu ex justo. Duis a nulla et nibh auctor commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
       </div>
-</div> 
+</div>
 </div>
 </section>
-            </ScrollableAnchor>   
+            </ScrollableAnchor>
       );
   }
 }
