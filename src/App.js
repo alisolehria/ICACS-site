@@ -502,7 +502,7 @@ render(){
      <PageCarousel title="Organisers"/>
        <section id="dark-bg">
     <div class = "container">
-<div id = "call" class = "callPapers">
+<div id = "call" class="org">
 
 
 
