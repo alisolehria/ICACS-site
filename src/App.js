@@ -506,30 +506,32 @@ render(){
 
 
 
-  <h1>Honorary Chair:</h1>
+  <h1>Honorary Chair</h1>
   <h2>Steve Gill, Heriot-Watt University</h2>
 
 
-<h1>Chair:</h1>
+<h1>Chair</h1>
 <h2>Hani Ragab, Heriot-Watt University, UAE</h2>
 
 
+<h1>Co-chair</h1>
+<div class="multiple">
 
-
-<h1>Co-chair:</h1>
-<h2>Abdelmadjid Bouabdallah, University of Technologie of Compiegne, France</h2>
-<h2>Hadj Batatia, Heriot-Watt University, UAE</h2>
-
-<h1>International Co-chair:</h1>
+<h2>Abdelmadjid Bouabdallah, University of Technologie of Compiegne, France
+<br/> Hadj Batatia, Heriot-Watt University, UAE</h2>
+</div>
+<h1>International Co-chair</h1>
 <h2>Ahcene Bounceur, Bretagne Occidentale University, France</h2>
 
-<h1>Publication Chair:</h1>
+<h1>Publication Chair</h1>
 <h2>Neamat Elgayar, Heriot-Watt University, UAE</h2>
+<h1>Poster Chair</h1>
 
-<h1>Poster Chair:</h1>
-<h2>Adrian Turcanu, Heriot-Watt University, UAE</h2>
-<h2>Hind Zantout, Heriot-Watt University, UAE</h2>
+<div class="multiple">
 
+<h2>Adrian Turcanu, Heriot-Watt University, UAE
+<br/>Hind Zantout, Heriot-Watt University, UAE</h2>
+</div>
 
 
 
