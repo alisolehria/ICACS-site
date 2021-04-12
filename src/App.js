@@ -431,7 +431,6 @@ render(){
 
       <ul>
        <li>Dr. Sebastiano Panichella, Zurich University of Applied Science, Switzerland</li>
-        <li>Prof. Abdelmadjid BouabdAllah, University of technology of compiegne, France</li>
         <li>Dr. Eduard Paul Enoiu, Mälardalen University, Sweden</li>
         <li>Dr. Mohamed Wiem Mkaouer, Rochester Institute of Technology, New York, United State</li>
 <li>Dr. Arif Ali Khan, Nanjing University of Aeronautics and Astronautics, China</li>
