@@ -519,7 +519,7 @@ render(){
 <h2>Hani Ragab, Heriot-Watt University, UAE</h2>
 
 
-<h1>Co-chair</h1>
+<h1>Co-chairs</h1>
 <div class="multiple">
 
 <h2>Abdelmadjid Bouabdallah, University of Technologie of Compiegne, France
@@ -528,7 +528,7 @@ render(){
 <h1>International Co-chair</h1>
 <h2>Ahcene Bounceur, Bretagne Occidentale University, France</h2>
 
-<h1>Publication Co-chair</h1>
+<h1>Publication Co-chairs</h1>
 <h2>Neamat Elgayar, Heriot-Watt University, UAE
 <br/>Mohammad Hamdan, Heriot-Watt University, UAE
 </h2>
