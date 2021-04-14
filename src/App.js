@@ -512,7 +512,7 @@ render(){
 
 
   <h1>Honorary Chair</h1>
-  <h2>Steve Gill, Heriot-Watt University</h2>
+  <h2>Steve Gill, Heriot-Watt University, UAE</h2>
 
 
 <h1>Chair</h1>
