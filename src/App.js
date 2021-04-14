@@ -116,6 +116,7 @@ class Navbar extends React.Component {
     </div>
 </nav>
 </div>
+
     <ScrollIntoView>
   <Switch>
            <Route exact path="/">
@@ -137,7 +138,9 @@ class Navbar extends React.Component {
         </Switch>
               </ScrollIntoView>
   </Router>
+
       );
+
    }
 }
 
@@ -328,7 +331,7 @@ class ImportantDates extends React.Component {
 
 <div class="event">
 <p>Paper submission deadline</p>
-<h2>1st June 2021</h2>
+<h2>8th June 2021</h2>
 </div>
 
 
@@ -439,6 +442,7 @@ render(){
 <li>Dr. Monther Aldwairi,  Zayed University, United Arab Emirates</li>
 <li>Dr. Djedjiga Mouheb, University of Sharjah, United Arab Emirates</li>
 <li>Dr. Mike Just, Heriot-Watt University, UK</li>
+<li>Dr. Lilia Georgieva, Heriot-Watt University, UK</li>
 <li>Dr. Samia Loucif, Zayed University</li>
 <li>Prof. Mohammed Ould Khaoua, University of Blida, Algeria</li>
 <li>Salih Ismail, Curtin University, UAE</li>
@@ -474,6 +478,7 @@ render(){
 <li>Dr. Ahmad Khan, Comsats University Islamabad, Abbotabad Campus, Pakistan</li>
 <li>Dr. Mohsin Bilal, University of Warwick, UK</li>
 <li>Dr. Hassan Ali Khattak, Comsat University Islamabad, Pakistan</li>
+
 
 
     </ul>
@@ -523,14 +528,18 @@ render(){
 <h1>International Co-chair</h1>
 <h2>Ahcene Bounceur, Bretagne Occidentale University, France</h2>
 
-<h1>Publication Chair</h1>
-<h2>Neamat Elgayar, Heriot-Watt University, UAE</h2>
-<h1>Poster Chair</h1>
+<h1>Publication Co-chair</h1>
+<h2>Neamat Elgayar, Heriot-Watt University, UAE
+<br/>Mohammad Hamdan, Heriot-Watt University, UAE
+</h2>
+<h1>Poster Committee</h1>
 
 <div class="multiple">
 
 <h2>Adrian Turcanu, Heriot-Watt University, UAE
-<br/>Hind Zantout, Heriot-Watt University, UAE</h2>
+<br/>Hind Zantout, Heriot-Watt University, UAE
+<br/>Smitha Kumar, Heriot-Watt University, UAE
+</h2>
 </div>
 
 

@@ -150,9 +150,10 @@ h1, h2 {
 
 .org h1{
   font-weight: bold;
+  font-size: 24px;
 }
   .org h2{
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .navbar {
