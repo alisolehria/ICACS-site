@@ -277,22 +277,33 @@ class CallForPapers extends React.Component {
     </div>
 
 <div class = "row">
-  <h3>Paper and Poster Submission</h3>
+  <h3>Paper Submission</h3>
    </div>
 <div class = "row">
-<p>Your submitted work can either be a full-length paper, short paper, or a poster.
+<p>Your submitted work can either be a full-length or a short paper.
 
 Full-length papers are limited to 10 pages and present mature work.
 
 Short papers are limited to 7 pages and contain intermediary results that might not have been extentsively evaluated.
 
-Both types of papers are to be submitted to the EasyChair. The submission link is:  <a href = "https://easychair.org/conferences/?conf=acs21" target = "_blank"> https://easychair.org/conferences/?conf=acs21</a>
+Both types of papers are to be submitted to <a href = "https://easychair.org/conferences/?conf=acs21" target = "_blank"> EasyChair</a>.
 </p>
+</div>
+<div class = "row">
+  <h3>Student Competition</h3>
+</div>
+<div class = "row">
 <p>
-Posters are for graduate and post-graduate students work. It could represent your degree project (graduation not earlier than April 2019), or a project you did while you are/were a student (graduation not earlier than April 2021). Posters use the A1 format. They will not be published in the conference proceedings.
-
-
+Graduate and post-graduate students are invited to submit their work. It could represent your degree project (graduation not earlier than April 2019), or a project you did while you are/were a student (graduation not earlier than April 2021). Posters use the A1 format. They will not be published in the conference proceedings.
 </p>
+
+<p> In order to participate, you will need to submit a one-page description of your project and its outcomes. If your submission is accepted, then you will be requested to submit a poster using the following template.
+</p>
+</div>
+<div class = "row">
+  <h3>Originality and Copyright</h3>
+   </div>
+<div class = "row">
 
 <p>
 All submitted work should be original; not previously or currently submitted for publication elsewhere.
