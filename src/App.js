@@ -526,30 +526,21 @@ render(){
   <h2>Steve Gill, Heriot-Watt University, UAE</h2>
 
 
-<h1>Chair</h1>
-<h2>Hani Ragab, Heriot-Watt University, UAE</h2>
+<h1>Steering Committee</h1>
+<h2>Hani Ragab, Heriot-Watt University, UAE
+<br/>Abdelmadjid Bouabdallah, University of Technologie of Compiegne, France
+<br/>Hadj Batatia, Heriot-Watt University, UAE</h2>
 
 
-<h1>Co-chairs</h1>
+<h1>Organizing Committee</h1>
 <div class="multiple">
-
-<h2>Abdelmadjid Bouabdallah, University of Technologie of Compiegne, France
-<br/> Hadj Batatia, Heriot-Watt University, UAE</h2>
-</div>
-<h1>International Co-chair</h1>
-<h2>Ahcene Bounceur, Bretagne Occidentale University, France</h2>
-
-<h1>Publication Co-chairs</h1>
-<h2>Neamat Elgayar, Heriot-Watt University, UAE
-<br/>Mohammad Hamdan, Heriot-Watt University, UAE
-</h2>
-<h1>Poster Committee</h1>
-
-<div class="multiple">
-
-<h2>Adrian Turcanu, Heriot-Watt University, UAE
+<h2>Ahcene Bounceur, Bretagne Occidentale University, France - Co-chair
+<br/>Adrian Turcanu, Heriot-Watt University, UAE - Student Compeitition
 <br/>Hind Zantout, Heriot-Watt University, UAE
+<br/>Mohammad Hamdan, Heriot-Watt University, UAE
+<br/>Neamat Elgayar, Heriot-Watt University, UAE
 <br/>Smitha Kumar, Heriot-Watt University, UAE
+<br/>Ali Muzaffar, Heriot-Watt University, UAE - Web master
 </h2>
 </div>
 
