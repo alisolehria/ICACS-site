@@ -222,7 +222,7 @@ class CallForPapers extends React.Component {
       <div class = "row">
   <h3>Conference Topics</h3>
   </div>
-  <div class ="row">
+
         <p>Topics of interests are, but not limited to: </p>
         <ul>
             <li>Machine learning applications to security and data-driven security</li>
@@ -260,11 +260,11 @@ class CallForPapers extends React.Component {
             <li>Security architectures</li>
             <li>Smart Cities Security</li>
       </ul>
-</div>
+
 <div class = "row">
   <h3>Conference Themes</h3>
    </div>
-   <div class = "row">
+
      <p>The above topics are organized into themes as follows:</p>
      <ul>
      <li><h4>Industry 4.0 Security & AI</h4>
@@ -274,12 +274,12 @@ class CallForPapers extends React.Component {
      <li><h4>Secure Infrastructure</h4>
      Network and wireless security, smart cities security, web security, mobile security & privacy, distributed systems security, anonymity and privacy, intrusion and anomaly detection and prevention, OS security, infrastructure security, authentication and authorization, biometrics, secure computer architectures, blockchains and distributed ledger security, social network security, application security, cryptography applications, security architectures, embedded systems security</li>
      </ul>
-    </div>
+
 
 <div class = "row">
   <h3>Paper Submission</h3>
    </div>
-<div class = "row">
+
 <p>Your submitted work can either be a full-length or a short paper.
 
 Full-length papers are limited to 10 pages and present mature work.
@@ -288,29 +288,57 @@ Short papers are limited to 7 pages and contain intermediary results that might 
 
 Both types of papers are to be submitted to <a href = "https://easychair.org/conferences/?conf=acs21" target = "_blank"> EasyChair</a>.
 </p>
+
+<div class = "row">
+  <h3>Journal Publication</h3>
 </div>
+<p>
+Authors of high quality papers will be invited to submit extended versions of their papers to a special issue on "Security, Usability and Machine Learning" of the <a href="https://www.mdpi.com/journal/electronics/special_issues/ML_electronics" target = "_blank">Journal of Electronics</a> (impact factor 2.4).
+</p>
+
 <div class = "row">
   <h3>Student Competition</h3>
 </div>
-<div class = "row">
+
 <p>
-Graduate and post-graduate students are invited to submit their work. It could represent your degree project (graduation not earlier than April 2019), or a project you did while you are/were a student (graduation not earlier than April 2021). Posters use the A1 format. They will not be published in the conference proceedings.
+Graduate and post-graduate students are invited to submit their security projects and research. It could represent their:
+<ul>
+  <li>Degree project and dissertation (graduation not earlier than April 2019)</li>
+  <li>A project they did when they were students (graduation not earlier than April 2021).</li>
+  <li>PhD work for current PhD students</li>
+</ul>
 </p>
 
-<p> In order to participate, you will need to submit a one-page description of your project and its outcomes. If your submission is accepted, then you will be requested to submit a poster using the following template.
+
+<p> In order to participate, you will need to submit a one-page description of your work and the significance of its outcomes along with a poster.
+{/* If your submission is accepted, then you will be requested to submit a poster using the following template. */}
+Posters use the A1 format. They will not be published in the conference proceedings.
 </p>
-</div>
+<p>
+Your project description is to be submitted <a href = "https://easychair.org/conferences/?conf=acs21" target = "_blank"> here</a>.
+
+</p>
+<h4>Student Prizes
+</h4>
+<p>The best three posters will receive cash prizes as follows: the <b>first prize is AED5000</b>, the <b>second prize is AED3000</b>, and the <b>third prize is AED2000</b>.</p>
+<p>Prizes are provided by our sponsor SPONSORNAME + Logo </p>
 <div class = "row">
   <h3>Originality and Copyright</h3>
    </div>
-<div class = "row">
+
 
 <p>
 All submitted work should be original; not previously or currently submitted for publication elsewhere.
 </p>
+<p>
+Please submit your papers as PDF files with no author identification (no names, emails, affiliations, etc.) You will be able to include that information in the camera ready version. Accepted papers will need to provide their source files, as either Word of Latex zipped projects along with the final PDF.
+</p>
+<p>
+Authors will also need to sign the copyright transfer form provided by our publisher.
+</p>
 
 
-</div>
+
 </div>
 
 </div>
