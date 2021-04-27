@@ -148,13 +148,17 @@ h1, h2 {
     padding-bottom: 30px;
   }
 
+ 
 .org h1{
   font-weight: bold;
   font-size: 24px;
+  text-align: left;
 }
   .org h2{
     font-size: 20px;
+    text-align: left;
   }
+
 
   .navbar {
      border-bottom: 2px solid #e48400;
