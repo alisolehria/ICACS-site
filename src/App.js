@@ -1,10 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
-import ScrollableAnchor from 'react-scrollable-anchor'
-import DateCountdown from 'react-date-countdown-timer';
-import logo from './logo.svg';
-import carouselPic1 from './assets/top-content-new.jpg';
 import ScrollIntoView from "./components/ScrollIntoView";
+import CallForPapers from './CallForPapers';
+import Organisers from './Organisers';
+import ImportantDates from './ImportantDates';
+import TechnicalCommitee from './TechincalCommitee';
+import Program from './Program';
+import Registration from './Registration';
+import Venue from './Venue';
+import TopContent from './TopContent';
 import './App.css';
 import {
   HashRouter as Router,
@@ -12,6 +15,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+
 
 class Home extends React.Component {
   componentDidMount() {
@@ -106,8 +110,13 @@ class Navbar extends React.Component {
           Venue
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">How to get here</a>
-          <a class="dropdown-item" href="#">Local Attractions</a>
+        <li class="nav-item">
+            <Link class="dropdown-item"  to="/location">How to get here</Link>
+        </li>
+        <li class="nav-item">
+            <Link class="dropdown-item"  to="/location">Local Attraction</Link>
+        </li>
+    
         </div>
           </li>
 
@@ -142,6 +151,11 @@ class Navbar extends React.Component {
           <Registration/>
         </Route>
 
+        <Route exact path="/location">
+          <Venue/>
+        </Route>
+
+
         </Switch>
               </ScrollIntoView>
   </Router>
@@ -152,473 +166,25 @@ class Navbar extends React.Component {
 }
 
 
-class TopContent extends React.Component {
-  render(){
-    return (
-
-      <div class="top-content" id="top-content">
-        <div class="container">
-
-        <div class="row">
-            <div class="col-md-8 offset-md-2 text">
-                <h1 class="wow fadeInLeftBig"> International Conference on Applied CyberSecurity (ACS) 2021</h1>
-                <h3 class="conference_date"> 13-14 November 2021 | Dubai, UAE</h3>
-                <div class="description wow fadeInLeftBig">
-                    <p>
-The International Conference on Applied CyberSecurity (ACS) aims to bring together researchers, practitioners, developers and students in the field of cybersecurity to exchange novelties, experience and ideas. </p>
-
-<p>We invite original unpublished papers from academics, government and industry practitioners as well as research students on their innovations in both theory and practice of cybersecurity. Papers could be on original designs and concepts, techniques and mechanisms, as well as field applications. </p>
-
-{/*<p>“Submitted papers must not substantially overlap with papers that have been published or that are simultaneously submitted to a journal or a conference/workshop with proceedings.”                     </p>*/}
-                </div>
-
-
-   </div>
-
-   </div>
-   <div id = "row" class="text">
- <h1>Time to Conference</h1>
-</div>
-           <div id = "countdown">
-   <DateCountdown dateTo='November 13, 2021 00:00:00 GMT+03:00' />
-
-   </div>
-   </div>
-
- </div>
-
-      );
-  }
-}
-
-
-class PageCarousel extends React.Component{
-
-  render(){
-    return (
-     <div class="home_container" id="top-content">
-        <div class="container">
-
-        <div class="row">
-            <div class="col-md-8 offset-md-2 text">
-                <h1 class="wow fadeInLeftBig">    <span style={{color: 'white'}}>{this.props.title}</span></h1>
-
-   </div>
-</div>
-</div>
- </div>
-      )
-  }
-}
-
-
-class CallForPapers extends React.Component {
-    componentDidMount() {
-    document.title = "Call For Papers";
-  }
-  render(){
-    return (
-<div>
-       <PageCarousel title="Call For Papers"/>
-         <section id="dark-bg">
-      <div class = "container">
-<div id = "call" class = "callPapers">
-
-
-
-      <div class = "row">
-  <h3>Conference Topics</h3>
-  </div>
-
-        <p>Topics of interests are, but not limited to: </p>
-        <ul>
-            <li>Machine learning applications to security and data-driven security</li>
-            <li>AI security </li>
-            <li>Network and wireless security </li>
-            <li>Malware and unwanted software</li>
-            <li>Digital forensics & biometrics (multimedia security, mobile, watermarking & data hiding, etc.)</li>
-            <li>Information Security Management (governance, risk management, security policies, compliance, operations, incident management, usability & human factors, etc.) </li>
-            <li>Access management</li>
-            <li>Authentication and authorization</li>
-            <li>Intrusion and anomaly detection and prevention </li>
-            <li>Threat Modelling, Vulnerability Assessment and Security Assessment</li>
-            <li>Web security </li>
-            <li>Anonymity & Privacy</li>
-            <li>System and OS security</li>
-            <li>Cryptography applications </li>
-            <li>5G security</li>
-            <li>Social network security</li>
-            <li>Infrastructure security</li>
-            <li>Source code and binaries security</li>
-            <li>Secure computer architectures</li>
-            <li>IT security laws and policies</li>
-            <li>Denial-of-service attacks and countermeasures </li>
-            <li>Anonymity and privacy</li>
-            <li>Security awareness, education and training</li>
-            <li>Application security </li>
-            <li>Blockchains and distributed ledger security </li>
-            <li>Cloud security </li>
-            <li>Cyber physical systems security </li>
-            <li>Distributed systems security </li>
-            <li>Embedded systems security </li>
-            <li>Mobile security and privacy </li>
-            <li>Internet of Things Security</li>
-            <li>Security and privacy policies and metrics</li>
-            <li>Security architectures</li>
-            <li>Smart Cities Security</li>
-      </ul>
-
-<div class = "row">
-  <h3>Conference Themes</h3>
-   </div>
-
-     <p>The above topics are organized into themes as follows:</p>
-     <ul>
-     <li><h4>Industry 4.0 Security & AI</h4>
-     Machine learning applications to security and data-driven security, AI security, 5G security, Internet of Things Security, Cloud security, Operational technology security, Cyber physical systems security </li>
-     <li><h4>Ethical hacking and Digital forensics</h4>Malware and unwanted software, Source code and binaries security, Vulnerability Assessment and Security Assessment, multimedia security, mobile, watermarking & data hiding, denial-of-service attacks and countermeasures</li>
-     <li><h4>Information Security Management</h4>Governance, risk management, security policies, compliance, operations, incident management, usability & human factors, Security and privacy policies and metrics, Threat Modelling, IT security laws and policies, security awareness, education and training, access management</li>
-     <li><h4>Secure Infrastructure</h4>
-     Network and wireless security, smart cities security, web security, mobile security & privacy, distributed systems security, anonymity and privacy, intrusion and anomaly detection and prevention, OS security, infrastructure security, authentication and authorization, biometrics, secure computer architectures, blockchains and distributed ledger security, social network security, application security, cryptography applications, security architectures, embedded systems security</li>
-     </ul>
-
-
-<div class = "row">
-  <h3>Paper Submission</h3>
-   </div>
-
-<p>Your submitted work can either be a full-length or a short paper.
-
-Full-length papers are limited to 10 pages and present mature work.
-
-Short papers are limited to 7 pages and contain intermediary results that might not have been extentsively evaluated.
-
-Both types of papers are to be submitted to <a href = "https://easychair.org/conferences/?conf=acs21" target = "_blank"> EasyChair</a>.
-</p>
-
-<div class = "row">
-  <h3>Journal Publication</h3>
-</div>
-<p>
-Authors of high quality papers will be invited to submit extended versions of their papers to a special issue on "Security, Usability and Machine Learning" of the <a href="https://www.mdpi.com/journal/electronics/special_issues/ML_electronics" target = "_blank">Journal of Electronics</a> (impact factor 2.4).
-</p>
-
-<div class = "row">
-  <h3>Student Competition</h3>
-</div>
-
-<p>
-Graduate and post-graduate students are invited to submit their security projects and research. It could represent their:
-<ul>
-  <li>Degree project and dissertation (graduation not earlier than April 2019)</li>
-  <li>A project they did when they were students (graduation not earlier than April 2021).</li>
-  <li>PhD work for current PhD students</li>
-</ul>
-</p>
-
 
-<p> In order to participate, you will need to submit a one-page description of your work and the significance of its outcomes along with a poster.
-{/* If your submission is accepted, then you will be requested to submit a poster using the following template. */}
-Posters use the A1 format. They will not be published in the conference proceedings.
-</p>
-<p>
-Your project description is to be submitted <a href = "https://easychair.org/conferences/?conf=acs21" target = "_blank"> here</a>.
 
-</p>
-<h4>Student Prizes
-</h4>
-<p>The best three posters will receive cash prizes as follows: the <b>first prize is AED5000</b>, the <b>second prize is AED3000</b>, and the <b>third prize is AED2000</b>.</p>
-<p>Prizes are provided by our sponsor SPONSORNAME + Logo </p>
-<div class = "row">
-  <h3>Originality and Copyright</h3>
-   </div>
 
 
-<p>
-All submitted work should be original; not previously or currently submitted for publication elsewhere.
-</p>
-<p>
-Please submit your papers as PDF files with no author identification (no names, emails, affiliations, etc.) You will be able to include that information in the camera ready version. Accepted papers will need to provide their source files, as either Word of Latex zipped projects along with the final PDF.
-</p>
-<p>
-Authors will also need to sign the copyright transfer form provided by our publisher.
-</p>
 
 
 
-</div>
 
-</div>
 
-</section>
- </div>
-      );
-  }
-}
 
-class ImportantDates extends React.Component {
-    componentDidMount() {
-    document.title = "Important Dates";
-  }
-  render(){
-    return (
-<div>
-<PageCarousel title="Important Dates"/>
-<div class="container">
-<div id = "call" class = "callPapers">
-<h2> Conference: 13-14 November 2021 </h2>
-<div class="row">
-
-<div class="col">
-<div class="row" id="dateHeader">
 
-<h3>Paper Submission Dates</h3>
-</div>
 
-<div class="event">
-<p>Paper submission deadline</p>
-<h2>8th June 2021</h2>
-</div>
 
 
 
-<div class="event">
-<p>Paper acceptance notification</p>
-<h2>15th July 2021</h2>
-</div>
-
-
-<div class="event">
-<p>Camera-ready submission (strict)</p>
-<h2>25th July 2021</h2>
-
-</div>
-
-</div>
-
-<div class="col">
-<div class="row">
-
-<h3>Poster Session Dates</h3>
-</div>
-<div class="event">
-<p>Poster/Abstract Submission Date</p>
-<h2>20th June 2021</h2>
-</div>
-
-
-
-<div class="event">
-<p>Poster acceptance notification</p>
-<h2>15th July 2021</h2>
-</div>
-
-
-
-
-
-
-
-</div>
-
-
-
-</div>
-
- </div>
- </div>
- </div>
-      );
-  }
-}
-
-
-
-class Program extends React.Component {
- 
-  componentDidMount() {
-    document.title = "Important Dates";
-  }
-  render(){
-    return (
-      <div>
-           <PageCarousel title="Program"/>
-        
-           <div class="container">
-<div id = "call" class = "callPapers">
-        <h1>To be Announced</h1>
-  </div></div>
-       
-      </div>
-      
-          
-      );
-    }
-  
-}
-
-
-class TechnicalCommitee extends React.Component {
-  componentDidMount() {
-  document.title = "Technical Commitee";
-}
-render(){
-  return (
-<div>
-     <PageCarousel title="Techincal Commitee"/>
-       <section id="dark-bg">
-    <div class = "container">
-<div id = "call" class = "callPapers">
-
-
-
-    <div class = "row">
-
-</div>
-<div class ="row">
-
-      <ul>
-       <li>Dr. Sebastiano Panichella, Zurich University of Applied Science, Switzerland</li>
-        <li>Prof. Abdelmadjid BouabdAllah, University of technology of compiegne, France</li>
-        <li>Dr. Eduard Paul Enoiu, Mälardalen University, Sweden</li>
-        <li>Dr. Mohamed Wiem Mkaouer, Rochester Institute of Technology, New York, United State</li>
-<li>Dr. Arif Ali Khan, Nanjing University of Aeronautics and Astronautics, China</li>
-<li>Dr. Rashid Naseem, Pak-Austria Fachhochschule Institute of Applied Sciences and Technology, Pakistan</li>
-<li>Dr. Monther Aldwairi,  Zayed University, United Arab Emirates</li>
-<li>Dr. Djedjiga Mouheb, University of Sharjah, United Arab Emirates</li>
-<li>Dr. Mike Just, Heriot-Watt University, UK</li>
-<li>Dr. Lilia Georgieva, Heriot-Watt University, UK</li>
-<li>Dr. Samia Loucif, Zayed University</li>
-<li>Prof. Mohammed Ould Khaoua, University of Blida, Algeria</li>
-<li>Salih Ismail, Curtin University, UAE</li>
-<li>Dr. Baber Majid Bhatti, University of South Australia.</li>
-<li>Dr. Qasem Obeidat, University of Bahrain, Bahrain.</li>
-<li>Dr. Nasir Mehmood Minhas, Blekinge Institute of Technology, Sweden</li>
-<li>Dr. Muhammad Usman, Blekinge Institute of Technology, Sweden</li>
-<li>Dr. Hajira Jabeen, University of Cologne, Germany</li>
-<li>Dr. Babar Shah, Zayed University, United Arab Emirates</li>
-<li>Dr. Adel Ammar, Prince Sultan University, Saudi Arabia</li>
-<li>Dr. Fernando Moreira, Portucalense University, Portugal</li>
-<li>Dr. Toqeer Ali Syed, Islamic University of Medina, Saudi Arabia</li>
-<li>Dr. Abdul Rauf, RISE-Research Institute of Sweden in Vasteras,Sweden</li>
-<li>Dr. Imran Ahmad Mughal, Institute of Management Sciences, Pakistan</li>
-<li>Dr. Adnan Amin, Institute of Management Sciences, Pakistan</li>
-<li>Dr. Awais Adnan, Institute of Management Sciences, Pakistan</li>
-<li>Dr. Zahoor Jan, Islamia College University Peshawar, Pakistan</li>
-<li>Dr. Salma Noor, Shaheed Benazir Bhutto Women University Peshawar, Pakistan</li>
-<li>Dr. Neelam Gohar, Shaheed Benazir Bhutto Women University Peshawar, Pakistan</li>
-<li>Dr. Imran Razzak, Deakin University, Australia</li>
-<li>Dr. Muhammad Ramzan, Saudi Electronic University, Saudi Arabia</li>
-<li>Dr. Gule Saman, Herriot-Watt University, UK</li>
-<li>Dr. Irfan Mehmood, University of Bradford, UK</li>
-<li>Dr. Khan Muhammad, Sejong University, South Korea</li>
-<li>Dr. Asad Khattak, Zayed University, UAE</li>
-<li>Dr. Wajahat Ali Khan, University of Derby, UK</li>
-<li>Dr. Zunera Jalil, Air University Islamabad, Pakistan</li>
-<li>Dr. Asad Habib, Kohat university of science and technology, Kohat,Pakistan</li>
-<li>Dr. Ibrar Ahmad, University of Peshawar</li>
-<li>Dr. Shah Nazir, University of Swabi, Pakistan</li>
-<li>Dr. Jamil Ahmad, Islamia College University Peshawar, Pakistan</li>
-<li>Dr. Zahid haleem, Ghulam Ishaq Institute of Engineering Sciences and Technology, Pakistan</li>
-<li>Dr. Ahmad Khan, Comsats University Islamabad, Abbotabad Campus, Pakistan</li>
-<li>Dr. Mohsin Bilal, University of Warwick, UK</li>
-<li>Dr. Hassan Ali Khattak, Comsat University Islamabad, Pakistan</li>
-
-
-
-    </ul>
-</div>
-
-</div>
-
-</div>
-
-</section>
-</div>
-    );
-
-
-  }
-}
-
-
-class Organisers extends React.Component {
-  componentDidMount() {
-  document.title = "Organisers";
-}
-render(){
-  return (
-<div>
-     <PageCarousel title="Organisers"/>
-       <section id="dark-bg">
-    <div class = "container">
-<div id = "call" class="org">
-
-
-<div class="row">
-  <h1>Honorary Chair</h1>
-</div>
-  <h2>Steve Gill, Heriot-Watt University, UAE</h2>
-
-  <div class="row">
-<h1>Steering Committee</h1>
-</div>
-<h2>Hani Ragab, Heriot-Watt University, UAE
-<br/>Abdelmadjid Bouabdallah, University of Technologie of Compiegne, France
-<br/>Hadj Batatia, Heriot-Watt University, UAE</h2>
-
-<div class="row">
-<h1>Organizing Committee</h1>
-</div>
-<div class="multiple">
-<h2>Ahcene Bounceur, Bretagne Occidentale University, France - Co-chair
-<br/>Adrian Turcanu, Heriot-Watt University, UAE - Student Compeitition
-<br/>Hind Zantout, Heriot-Watt University, UAE
-<br/>Mohammad Hamdan, Heriot-Watt University, UAE
-<br/>Neamat Elgayar, Heriot-Watt University, UAE
-<br/>Smitha Kumar, Heriot-Watt University, UAE
-<br/>Ali Muzaffar, Heriot-Watt University, UAE - Web master
-</h2>
-</div>
-
-
-
-
-</div>
-
-</div>
-
-</section>
-</div>
-    );
-
-
-  }
-}
-
-
-
-class Registration extends React.Component {
- 
-  componentDidMount() {
-    document.title = "Registration";
-  }
-  render(){
-    return (
-      <div>
-           <PageCarousel title="Registration"/>
-        
-           <div class="container">
-<div id = "call" class = "callPapers">
-        <h1>Under Construction</h1>
-  </div></div>
-       
-      </div>
-      
-          
-      );
-    }
-  
-}
+
+
+
+
 
 export default Navbar;
+
