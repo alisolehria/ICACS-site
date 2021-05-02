@@ -95,11 +95,11 @@ class Navbar extends React.Component {
                 <li class="nav-item">
                     <Link class="nav-link scroll-link"  to="/importantdates">Important Dates</Link>
                 </li>
-                 <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#prevList">Program</a>
+                <li class="nav-item">
+                   <Link class="nav-link scroll-link"  to="/program">Program</Link>
                 </li>
                      <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#prevList">Registration</a>
+                     <Link class="nav-link scroll-link"  to="/registration">Registration</Link>
                 </li>
                                       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -133,6 +133,13 @@ class Navbar extends React.Component {
          </Route>
          <Route exact path="/organisers">
           <Organisers/>
+        </Route>
+          <Route exact path="/program">
+          <Program/>
+        </Route>
+
+          <Route exact path="/registration">
+          <Registration/>
         </Route>
 
         </Switch>
@@ -427,28 +434,27 @@ class ImportantDates extends React.Component {
 
 
 
-class PreviousConferences extends React.Component {
+class Program extends React.Component {
+ 
+  componentDidMount() {
+    document.title = "Important Dates";
+  }
   render(){
     return (
-         <ScrollableAnchor id={'prevConf'}>
-
-      <div class = "container">
-<div id = "call">
-
-      <h2>Previous Conferences</h2>
-
-      <div class = "row">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget sem in nunc tempor iaculis sit amet ullamcorper neque. Sed lectus ex, vulputate vel ultricies vitae, gravida vel quam. Nunc aliquet fermentum sodales. Quisque mollis sit amet eros a euismod. Praesent non turpis volutpat, elementum quam ac, lobortis turpis. Nam nec ultrices turpis, volutpat sodales nibh. Nam tristique et libero quis varius. Pellentesque pulvinar enim in dolor venenatis, sit amet iaculis tellus malesuada. Phasellus eget pellentesque enim, at iaculis libero. Vestibulum semper, enim et semper tempus, turpis eros maximus sapien, sit amet semper augue nunc quis nisl.
-
-        </p><p>Ut tristique diam hendrerit turpis ullamcorper, quis sagittis urna tempus. Duis egestas libero a ex fermentum, vitae fermentum libero interdum. Sed tempor libero libero. Suspendisse ut volutpat eros, facilisis dapibus enim. Integer varius, velit eget dignissim faucibus, dui orci accumsan elit, id tincidunt enim purus et mi. Vivamus pellentesque egestas tortor et varius. Integer vehicula risus quis odio aliquet tincidunt. Fusce euismod eros purus, ac bibendum dui tempor ac. In id nisi lorem.
-
-        Vivamus elementum neque et mi tristique, at porttitor turpis mattis. Proin id urna magna. Curabitur egestas dolor eget faucibus suscipit. Fusce sit amet blandit ante. In a metus at nisi dictum euismod quis eget magna. Etiam eu ex justo. Duis a nulla et nibh auctor commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+      <div>
+           <PageCarousel title="Program"/>
+        
+           <div class="container">
+<div id = "call" class = "callPapers">
+        <h1>To be Announced</h1>
+  </div></div>
+       
       </div>
-</div>
-</div>
-            </ScrollableAnchor>
+      
+          
       );
-  }
+    }
+  
 }
 
 
@@ -592,29 +598,27 @@ render(){
 
 
 
-class PreviousListings extends React.Component {
+class Registration extends React.Component {
+ 
+  componentDidMount() {
+    document.title = "Registration";
+  }
   render(){
     return (
-         <ScrollableAnchor id={'prevList'}>
-                  <section id="dark-bg">
-      <div class = "container">
-<div id = "call">
-
-      <h2>Previous Listings</h2>
-
-      <div class = "row">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget sem in nunc tempor iaculis sit amet ullamcorper neque. Sed lectus ex, vulputate vel ultricies vitae, gravida vel quam. Nunc aliquet fermentum sodales. Quisque mollis sit amet eros a euismod. Praesent non turpis volutpat, elementum quam ac, lobortis turpis. Nam nec ultrices turpis, volutpat sodales nibh. Nam tristique et libero quis varius. Pellentesque pulvinar enim in dolor venenatis, sit amet iaculis tellus malesuada. Phasellus eget pellentesque enim, at iaculis libero. Vestibulum semper, enim et semper tempus, turpis eros maximus sapien, sit amet semper augue nunc quis nisl.
-
-        Ut tristique diam hendrerit turpis ullamcorper, quis sagittis urna tempus. Duis egestas libero a ex fermentum, vitae fermentum libero interdum. Sed tempor libero libero. Suspendisse ut volutpat eros, facilisis dapibus enim. Integer varius, velit eget dignissim faucibus, dui orci accumsan elit, id tincidunt enim purus et mi. Vivamus pellentesque egestas tortor et varius. Integer vehicula risus quis odio aliquet tincidunt. Fusce euismod eros purus, ac bibendum dui tempor ac. In id nisi lorem.
-
-        Vivamus elementum neque et mi tristique, at porttitor turpis mattis. Proin id urna magna. Curabitur egestas dolor eget faucibus suscipit. Fusce sit amet blandit ante. In a metus at nisi dictum euismod quis eget magna. Etiam eu ex justo. Duis a nulla et nibh auctor commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+      <div>
+           <PageCarousel title="Registration"/>
+        
+           <div class="container">
+<div id = "call" class = "callPapers">
+        <h1>Under Construction</h1>
+  </div></div>
+       
       </div>
-</div>
-</div>
-</section>
-            </ScrollableAnchor>
+      
+          
       );
-  }
+    }
+  
 }
 
 export default Navbar;
