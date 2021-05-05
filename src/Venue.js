@@ -17,7 +17,17 @@ class Venue extends React.Component {
           
              <div class="container">
   <div id = "call" class = "callPapers">
-
+  <Map
+        google={this.props.google}
+        zoom={14}
+        style={mapStyles}
+        initialCenter={
+          {
+            lat: -1.2884,
+            lng: 36.8233
+          }
+        }
+      />
   
     </div></div>
          
@@ -31,5 +41,5 @@ class Venue extends React.Component {
 
 
   export default GoogleApiWrapper({
-    apiKey: "API"
+    apiKey: "AIzaSyAq83z_SC8bL5TsQkL19FFqVttWkomuSEs"
   })(Venue);
