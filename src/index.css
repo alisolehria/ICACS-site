@@ -219,3 +219,7 @@ h1, h2 {
   text-align: left;
   font-size: 25px;
 }
+
+.timelabel h1{
+  font-size: 32px;
+}

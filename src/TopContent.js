@@ -24,16 +24,18 @@ class TopContent extends React.Component {
      </div>
   
      </div>
-     <div id = "row" class="text">
+     <div class="col-md-8 offset-md-2 text">
+     <h1 class="wow fadeInLeftBig">Co-located with <a id = "icita_anchor" href="https://icita.world/#/" target="_blank" >ICITA 2021</a></h1>
+     </div>
+     <div id = "row" class="text timelabel">
    <h1>Time to Conference</h1>
   </div>
+  
              <div id = "countdown">
      <DateCountdown dateTo='November 13, 2021 00:00:00 GMT+03:00' />
   
      </div>
-     <div class="col-md-8 offset-md-2 text">
-     <h1 class="wow fadeInLeftBig">Co-located with <a id = "icita_anchor" href="https://icita.world/#/" target="_blank" >ICITA 2021</a></h1>
-     </div>
+  
      </div>
   
    </div>
