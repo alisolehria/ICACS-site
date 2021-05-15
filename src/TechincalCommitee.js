@@ -66,6 +66,7 @@ class TechnicalCommitee extends React.Component {
   <li>Dr. Ahmad Khan, Comsats University Islamabad, Abbotabad Campus, Pakistan</li>
   <li>Dr. Mohsin Bilal, University of Warwick, UK</li>
   <li>Dr. Hassan Ali Khattak, Comsat University Islamabad, Pakistan</li>
+  <li>Dr. Hatem Ahriz, Robert Gordon University, UK </li>
   
   
   
