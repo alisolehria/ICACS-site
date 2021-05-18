@@ -47,6 +47,7 @@ class TechnicalCommitee extends React.Component {
   <li>Dr. Imran Ahmad Mughal, Institute of Management Sciences, Pakistan</li>
   <li>Dr. Adnan Amin, Institute of Management Sciences, Pakistan</li>
   <li>Dr. Awais Adnan, Institute of Management Sciences, Pakistan</li>
+  <li>Dr. Hatem Ahriz, Robert Gordon University, UK </li>
   <li>Dr. Zahoor Jan, Islamia College University Peshawar, Pakistan</li>
   <li>Dr. Salma Noor, Shaheed Benazir Bhutto Women University Peshawar, Pakistan</li>
   <li>Dr. Neelam Gohar, Shaheed Benazir Bhutto Women University Peshawar, Pakistan</li>
@@ -66,7 +67,7 @@ class TechnicalCommitee extends React.Component {
   <li>Dr. Ahmad Khan, Comsats University Islamabad, Abbotabad Campus, Pakistan</li>
   <li>Dr. Mohsin Bilal, University of Warwick, UK</li>
   <li>Dr. Hassan Ali Khattak, Comsat University Islamabad, Pakistan</li>
-  <li>Dr. Hatem Ahriz, Robert Gordon University, UK </li>
+  
   
   
   
