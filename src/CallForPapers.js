@@ -94,27 +94,28 @@ Authors of high quality papers will be invited to submit extended versions of th
 </div>
 
 <p>
-Graduate and post-graduate students are invited to submit their security projects and research. It could represent their:
+Undergraduate students are invited to submit their security projects and research. It could represent their:
 <ul>
 <li>Degree project and dissertation (graduation not earlier than April 2019)</li>
-<li>A project they did when they were students (graduation not earlier than April 2021).</li>
-<li>PhD work for current PhD students</li>
+<li>A project they did when they were students (graduation not earlier than April 2021)</li>
+
 </ul>
 </p>
 
 
-<p> In order to participate, you will need to submit a one-page description of your work and the significance of its outcomes along with a poster.
+<p> In order to participate, you will need to submit a one-page description of your work and the significance of its outcomes along with a poster. Posters use the A1 format. They will not be published in the conference proceedings.
 {/* If your submission is accepted, then you will be requested to submit a poster using the following template. */}
-Posters use the A1 format. They will not be published in the conference proceedings.
 </p>
 <p>
 Your project description is to be submitted <a href = "https://easychair.org/conferences/?conf=acs21" target = "_blank"> here</a>.
 
 </p>
-<h4>Student Prizes
-</h4>
-<p>The best three posters will receive cash prizes as follows: the <b>first prize is AED5000</b>, the <b>second prize is AED3000</b>, and the <b>third prize is AED2000</b>.</p>
-<p>Prizes are provided by our sponsor SPONSORNAME + Logo </p>
+<b>The winners of the competition will be awarded the following prizes:</b>
+<ul>
+    <li>First prize – AED1,500 + 35% Scholarship to study an MSc programme at Heriot-Watt University, Dubai.</li>
+    <li>Second prize – AED1,000 + 25% Scholarship to study an MSc programme at Heriot-Watt University, Dubai.</li>
+    <li>Third prize – AED500 + 20% Scholarship to study an MSc programme at Heriot-Watt University, Dubai.</li>
+</ul>
 <div class = "row">
 <h3>Originality and Copyright</h3>
  </div>
