@@ -110,7 +110,7 @@ Undergraduate students are invited to submit their security projects and researc
 Your project description is to be submitted <a href = "https://easychair.org/conferences/?conf=acs21" target = "_blank"> here</a>.
 
 </p>
-<b>The winners of the competition will be awarded the following prizes:</b>
+<p style={{fontWeight: 'bold'}}>The winners of the competition will be awarded the following prizes:</p>
 <ul>
     <li>First prize – AED1,500 + 35% Scholarship to study an MSc programme at Heriot-Watt University, Dubai.</li>
     <li>Second prize – AED1,000 + 25% Scholarship to study an MSc programme at Heriot-Watt University, Dubai.</li>
