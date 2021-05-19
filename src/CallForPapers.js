@@ -94,7 +94,7 @@ Authors of high quality papers will be invited to submit extended versions of th
 </div>
 
 <p>
-Undergraduate students are invited to submit their security projects and research. It could represent their:
+BSc students/graduates are invited to submit their security projects and research. It could represent their:
 <ul>
 <li>Degree project and dissertation (graduation not earlier than April 2019)</li>
 <li>A project they did when they were students (graduation not earlier than April 2021)</li>
