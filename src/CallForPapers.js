@@ -1,7 +1,9 @@
 import React from 'react';
 import PageCarousel from './PageCarousel';
 class CallForPapers extends React.Component {
-
+    componentDidMount() {
+        document.title = 'Call for Papers';
+      }
 render(){
   return (
 <div>
