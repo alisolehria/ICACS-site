@@ -111,9 +111,14 @@ render(){
    </ul>
 
 
+
+
+
+
 <div class = "row">
-<h3>Paper Submission</h3>
+<h3>Conference Proceedings and Paper Submission</h3>
  </div>
+ <p>The conference proceedings will be published in Springer's Lecture Notes in Networks and Systems.</p>
 
 <p>Your submitted work can either be a full-length or a short paper.
 
@@ -216,7 +221,7 @@ Authors will also need to sign the copyright transfer form provided by our publi
 <div class="col-lg-4 col-md-4 col-xs-4 thumb">
   
 
-    <img src={ISI} alt="ISI" />
+    <img src={ISI} alt="ISI"  width="80%"  />
 
 </div>
 
