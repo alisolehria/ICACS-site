@@ -16,8 +16,8 @@ render(){
     <h3>Fees</h3>
     </div>
     <ul>
-        <li>USD0 (FREE) - Students and Academics</li>
-        <li>USD100 - Industrial delegates</li>
+        <li>USD0 (FREE) for academcis and students </li>
+        <li>USD100 for industrial delegates</li>
     </ul>
 
 
@@ -90,6 +90,10 @@ Full-length papers are limited to 10 pages and present mature work.
 Short papers are limited to 7 pages and contain intermediary results that might not have been extentsively evaluated.
 
 Both types of papers are to be submitted to <a href = "https://easychair.org/conferences/?conf=acs21" target = "_blank"> EasyChair</a>.
+</p>
+
+<p>
+Please follow the instructions for authors on the website of the <a href = "https://www.springer.com/series/15179" target = "_blank"> Lecture Notes in Networks and Systems Series </a>.
 </p>
 
 <div class = "row">

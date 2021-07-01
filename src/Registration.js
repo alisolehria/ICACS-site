@@ -18,8 +18,8 @@ class Registration extends React.Component {
     <h3>Fees</h3>
     </div>
     <ul>
-        <li>USD0 (FREE) - Students and Academics</li>
-        <li>USD100 - Industrial delegates</li>
+        <li>USD0 (FREE) for academcis and students </li>
+        <li>USD100 for industrial delegates</li>
     </ul>
     </div></div>
          
