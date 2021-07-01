@@ -12,7 +12,13 @@ render(){
     <div class = "container">
 <div id = "call" class = "callPapers">
 
+<div class = "row">
+    <h3>Fees</h3>
+    <ul>
+        <li>USD 0 - Students and Academics</li>
+    </ul>
 
+</div>
 
     <div class = "row">
 <h3>Conference Topics</h3>
