@@ -1,5 +1,9 @@
 import React from 'react';
 import PageCarousel from './PageCarousel';
+import MDPI from "./assets/MDPI.png";
+import Springer from "./assets/Springer.png";
+import lecture from "./assets/lecture-notes.jpg";
+
 class CallForPapers extends React.Component {
     componentDidMount() {
         document.title = 'Call for Papers';
@@ -11,6 +15,32 @@ render(){
        <section id="dark-bg">
     <div class = "container">
 <div id = "call" class = "callPapers">
+
+<div class ="row d-flex flex-wrap align-items-center">
+<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+    <a class="thumbnail" href="#">
+    <img src={Springer} alt="Springer" />
+    </a>
+</div>
+
+<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+    <a class="thumbnail" href="#">
+
+    <img src={MDPI} alt="MDPI" />
+    </a>
+</div>
+
+<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+    <a class="thumbnail" href="#">
+   
+<img src={lecture} alt="lecture" />
+    </a>
+</div>
+
+
+
+
+</div>
 
 <div class = "row">
     <h3>Fees</h3>
