@@ -16,7 +16,7 @@ render(){
     <h3>Fees</h3>
     </div>
     <ul>
-        <li>USD0(FREE) - Students and Academics</li>
+        <li>USD0 (FREE) - Students and Academics</li>
         <li>USD100 - Industrial delegates</li>
     </ul>
 
