@@ -14,11 +14,13 @@ render(){
 
 <div class = "row">
     <h3>Fees</h3>
+    </div>
     <ul>
-        <li>USD 0 - Students and Academics</li>
+        <li>USD0(FREE) - Students and Academics</li>
+        <li>USD100 - Industrial delegates</li>
     </ul>
 
-</div>
+
 
     <div class = "row">
 <h3>Conference Topics</h3>
