@@ -67,18 +67,18 @@ class Navbar extends React.Component {
       return (
            <Router>
 <div id = "testing1">
-<nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg" style={this.state.bgColor}>
+<nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg " style={this.state.bgColor}>
     <div class="container">
         <Link class="navbar-brand" to="/">ICACS 2021</Link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav ml-auto">
                               <li class="nav-item">
              <Link class="nav-link scroll-link"  to="/">Home</Link>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ">
                    <Link class="nav-link scroll-link"  to="/callforpapers">Call for Papers</Link>
                 </li>
                 <li class="nav-item">
@@ -104,7 +104,7 @@ class Navbar extends React.Component {
                     <Link class="nav-link scroll-link"  to="/importantdates">Important Dates</Link>
                 </li>
                 <li class="nav-item">
-                   <Link class="nav-link scroll-link"  to="/program">Program</Link>
+                   <Link class="nav-link scroll-link my-link"  to="/program">Program</Link>
                 </li>
                      <li class="nav-item">
                      <Link class="nav-link scroll-link"  to="/registration">Registration</Link>
