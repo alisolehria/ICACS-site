@@ -130,7 +130,7 @@ Both types of papers are to be submitted to <a href = "https://easychair.org/con
 </p>
 
 <p>
-Please follow the instructions for authors on the website of the <a href = "https://www.springer.com/series/15179" target = "_blank"> Lecture Notes in Networks and Systems Series </a>.
+Please follow the <a href = "https://www.springer.com/de/authors-editors/book-authors-editors/manuscript-preparation/5636" target = "_blank">instructions for authors</a> on the website of the <a href = "https://www.springer.com/series/15179" target = "_blank"> Lecture Notes in Networks and Systems Series </a>.
 </p>
 
 <div class = "row">
@@ -206,7 +206,7 @@ Authors will also need to sign the copyright transfer form provided by our publi
     <img src={MDPI} alt="MDPI" />
 
 </div>
-
+</div>
 <div class ="row d-flex flex-wrap align-items-center">
 
 
@@ -231,7 +231,7 @@ Authors will also need to sign the copyright transfer form provided by our publi
 
 
 
-</div>
+
 
 
 </div>
