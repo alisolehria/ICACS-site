@@ -68,7 +68,7 @@ class Navbar extends React.Component {
            <Router>
 <div id = "testing1">
 <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg " style={this.state.bgColor}>
-    <div class="container">
+    <div class="container-fluid">
         <Link class="navbar-brand" to="/">ICACS 2021</Link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
