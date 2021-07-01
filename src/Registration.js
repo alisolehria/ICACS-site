@@ -12,7 +12,15 @@ class Registration extends React.Component {
           
              <div class="container">
   <div id = "call" class = "callPapers">
-          <h1>Under Construction</h1>
+
+
+<div class = "row">
+    <h3>Fees</h3>
+    </div>
+    <ul>
+        <li>USD0 (FREE) - Students and Academics</li>
+        <li>USD100 - Industrial delegates</li>
+    </ul>
     </div></div>
          
         </div>
