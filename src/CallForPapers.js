@@ -5,7 +5,7 @@ import Springer from "./assets/Springer.png";
 import lecture from "./assets/lecture-notes.jpg";
 import ISI from "./assets/ISI.png";
 import Scopus from "./assets/scopus.png"
-
+import { Link } from 'react-router-dom';
 class CallForPapers extends React.Component {
     componentDidMount() {
         document.title = 'Call for Papers';
@@ -152,21 +152,9 @@ BSc students/graduates are invited to submit their security projects and researc
 
 </ul>
 </p>
+<p>You will find further information <Link to="/studentcompetition">here</Link>.</p>
 
 
-<p> In order to participate, you will need to submit a one-page description of your work and the significance of its outcomes along with a poster. Posters use the A1 format. They will not be published in the conference proceedings.
-{/* If your submission is accepted, then you will be requested to submit a poster using the following template. */}
-</p>
-<p>
-Your project description is to be submitted <a href = "https://easychair.org/conferences/?conf=acs21" target = "_blank"> here</a>.
-
-</p>
-<p style={{fontWeight: 'bold'}}>The winners of the competition will be awarded the following prizes:</p>
-<ul>
-    <li>First prize – AED1,500 + 35% Scholarship to study an MSc programme at Heriot-Watt University, Dubai.</li>
-    <li>Second prize – AED1,000 + 25% Scholarship to study an MSc programme at Heriot-Watt University, Dubai.</li>
-    <li>Third prize – AED500 + 20% Scholarship to study an MSc programme at Heriot-Watt University, Dubai.</li>
-</ul>
 <div class = "row">
 <h3>Originality and Copyright</h3>
  </div>

@@ -8,6 +8,7 @@ import Program from './Program';
 import Registration from './Registration';
 import Venue from './Venue';
 import TopContent from './TopContent';
+import StudentCompetition from './StudentCompetition';
 import './App.css';
 import {
   HashRouter as Router,
@@ -80,6 +81,9 @@ class Navbar extends React.Component {
                 <li class="nav-item">
                    <Link class="nav-link scroll-link"  to="/callforpapers">Call for Papers</Link>
                 </li>
+                <li class="nav-item">
+                   <Link class="nav-link scroll-link"  to="/studentcompetition">Student Competition</Link>
+                </li>
                  <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Commitee
@@ -114,7 +118,7 @@ class Navbar extends React.Component {
             <Link class="dropdown-item"  to="/location">How to get here</Link>
         </li>
         <li class="nav-item">
-            <Link class="dropdown-item"  to="/location">Local Attraction</Link>
+            <Link class="dropdown-item"  to="/location">Local Attractions</Link>
         </li>
     
         </div>
@@ -134,6 +138,9 @@ class Navbar extends React.Component {
           <Route exact path="/callforpapers">
             <CallForPapers/>
           </Route>
+          <Route exact path="/studentcompetition">
+          <StudentCompetition/>
+        </Route>
            <Route exact path="/importantdates">
             <ImportantDates/>
           </Route>
@@ -154,6 +161,8 @@ class Navbar extends React.Component {
         <Route exact path="/location">
           <Venue/>
         </Route>
+
+
 
 
         </Switch>
