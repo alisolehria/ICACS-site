@@ -18,23 +18,23 @@ render(){
 
 <div class ="row d-flex flex-wrap align-items-center">
 <div class="col-lg-4 col-md-4 col-xs-4 thumb">
-    <a class="thumbnail" href="#">
+ 
     <img src={Springer} alt="Springer" />
-    </a>
+
 </div>
 
 <div class="col-lg-4 col-md-4 col-xs-4 thumb">
-    <a class="thumbnail" href="#">
+  
 
     <img src={MDPI} alt="MDPI" />
-    </a>
+
 </div>
 
 <div class="col-lg-4 col-md-4 col-xs-4 thumb">
-    <a class="thumbnail" href="#">
+
    
 <img src={lecture} alt="lecture" />
-    </a>
+
 </div>
 
 
