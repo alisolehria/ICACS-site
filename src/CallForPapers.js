@@ -3,6 +3,8 @@ import PageCarousel from './PageCarousel';
 import MDPI from "./assets/MDPI.png";
 import Springer from "./assets/Springer.png";
 import lecture from "./assets/lecture-notes.jpg";
+import ISI from "./assets/ISI.png";
+import Scopus from "./assets/scopus.png"
 
 class CallForPapers extends React.Component {
     componentDidMount() {
@@ -23,12 +25,7 @@ render(){
 
 </div>
 
-<div class="col-lg-4 col-md-4 col-xs-4 thumb">
-  
 
-    <img src={MDPI} alt="MDPI" />
-
-</div>
 
 <div class="col-lg-4 col-md-4 col-xs-4 thumb">
 
@@ -36,7 +33,12 @@ render(){
 <img src={lecture} alt="lecture" />
 
 </div>
+<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+  
 
+    <img src={MDPI} alt="MDPI" />
+
+</div>
 
 
 
@@ -178,11 +180,60 @@ Authors will also need to sign the copyright transfer form provided by our publi
 
 
 </div>
+<div class ="row d-flex flex-wrap align-items-center">
+<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+ 
+    <img src={Springer} alt="Springer" />
+
+</div>
+
+
+
+<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+
+   
+<img src={lecture} alt="lecture" />
+
+</div>
+<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+  
+
+    <img src={MDPI} alt="MDPI" />
+
+</div>
+
+<div class ="row d-flex flex-wrap align-items-center">
+
+
+
+
+<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+
+   
+<img src={Scopus} alt="Scopus" />
+
+</div>
+<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+  
+
+    <img src={ISI} alt="ISI" />
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
 
 </div>
 
 </section>
 </div>
+
     );
 }
 }
