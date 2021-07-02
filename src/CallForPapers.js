@@ -137,7 +137,7 @@ Please follow the instructions for authors on the website of the <a href = "http
 <h3>Journal Publication</h3>
 </div>
 
-<p>We are pleased to announce that the <a href="https://www.mdpi.com/journal/electronics/special_issues/ML_electronics" target = "_blank">Journal of Electronics</a> (impact factor 2.4) has agreed to publish, in a special issue on "Security, Usability and Machine Learning", the top papers from the conference. The selected papers are expected to be further developed after the conference and will have to satisfy the journal's review process.</p>
+<p>We are pleased to announce that the <a href="https://www.mdpi.com/journal/electronics/special_issues/ML_electronics" target = "_blank">Journal of Electronics</a> (impact factor 2.4) has agreed to publish, in a special issue on  <a href="https://www.mdpi.com/journal/electronics/special_issues/ML_electronics" target = "_blank">Security, Usability and Machine Learning</a>, the top papers from the conference. The selected papers are expected to be further developed after the conference and will have to satisfy the journal's review process.</p>
 
 
 <div class = "row">
