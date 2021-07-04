@@ -162,7 +162,7 @@ h1, h2 {
 
 
   .navbar {
-     border-bottom: 2px solid #e48400;
+     border-bottom: 2px solid #0017e4;
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
@@ -229,4 +229,19 @@ h1, h2 {
 .description{
   padding:20px;
   background: rgba(5, 5, 5, 0.3);
+}
+
+.footer-dark{
+  background-color:  rgb(15, 15, 15);
+  color: white;
+  padding: 15px;
+  opacity: 0.9;
+}
+
+.footer-bottom{
+  background-color: #0017e4;
+}
+
+hr{
+  background-color: white;
 }

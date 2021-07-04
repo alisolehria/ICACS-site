@@ -10,6 +10,7 @@ import Venue from './Venue';
 import TopContent from './TopContent';
 import StudentCompetition from './StudentCompetition';
 import './App.css';
+import hwLogo from './assets/heriot-watt.png';
 
 import {
   BrowserRouter as Router,
@@ -68,6 +69,7 @@ class Navbar extends React.Component {
 
    render() {
       return (
+        <div>
            <Router>
 <div id = "testing1">
 
@@ -173,6 +175,23 @@ class Navbar extends React.Component {
               </ScrollIntoView>
   </Router>
 
+  <footer class="footer-dark">
+    <div class = "container">
+    
+    <h4>Sponsors</h4>
+    <h5>Diamond Sponsors</h5>
+
+  
+            
+            <img  src={hwLogo} alt="Heriot-Watt Logo"  width="15%" heigh="15%" />
+            </div>
+
+            <hr class="mt-2 mb-3"/>
+    <p class="text-right">Copyright ACS© 2002-2021 All rights reserved</p>
+   
+
+  </footer>
+  </div>
       );
 
    }
