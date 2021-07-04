@@ -12,10 +12,11 @@ import StudentCompetition from './StudentCompetition';
 import './App.css';
 import MetaTags from 'react-meta-tags';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+ 
 } from "react-router-dom";
 
 
