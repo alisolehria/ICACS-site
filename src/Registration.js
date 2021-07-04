@@ -14,8 +14,9 @@ class Registration extends React.Component {
   <div id = "call" class = "callPapers">
 
 
+        </div>
 <div class = "row">
-    <h3>Fees</h3>
+    <h1>Fees</h1>
     </div>
     <ul>
         <li>USD0 (FREE) for academcis and students </li>
@@ -23,8 +24,7 @@ class Registration extends React.Component {
     </ul>
     </div></div>
          
-        </div>
-        
+     
             
         );
       }
