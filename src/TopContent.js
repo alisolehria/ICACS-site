@@ -18,15 +18,17 @@ class TopContent extends React.Component {
   <p>We invite original unpublished papers from academics, government and industry practitioners as well as research students on their innovations in both theory and practice of cybersecurity. Papers could be on original designs and concepts, techniques and mechanisms, as well as field applications. </p>
   
   {/*<p>“Submitted papers must not substantially overlap with papers that have been published or that are simultaneously submitted to a journal or a conference/workshop with proceedings.”                     </p>*/}
+                  
+
+     <p>Co-located with <a id = "icita_anchor" href="https://icita.world/#/" target="_blank" >ICITA 2021</a></p>
+
                   </div>
   
   
      </div>
   
      </div>
-     <div class="col-md-8 offset-md-2 text">
-     <p>Co-located with <a id = "icita_anchor" href="https://icita.world/#/" target="_blank" >ICITA 2021</a></p>
-     </div>
+  
      <div id = "row" class="text timelabel">
    <h1>Time to Conference</h1>
   </div>
