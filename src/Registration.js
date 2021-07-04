@@ -10,6 +10,7 @@ class Registration extends React.Component {
         <div>
              <PageCarousel title="Registration"/>
           
+            
              <div class="container">
   <div id = "call" class = "callPapers">
 
