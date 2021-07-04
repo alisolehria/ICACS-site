@@ -236,6 +236,7 @@ h1, h2 {
   color: white;
   padding: 15px;
   opacity: 0.9;
+  border-top: 2px solid #e48400;
 }
 
 .footer-dark h2{
