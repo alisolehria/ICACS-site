@@ -10,7 +10,7 @@ import Venue from './Venue';
 import TopContent from './TopContent';
 import StudentCompetition from './StudentCompetition';
 import './App.css';
-import hwLogo from './assets/heriot-watt.png';
+import hwLogo from './assets/heriot-watt.jpg';
 
 import {
   BrowserRouter as Router,
@@ -178,8 +178,8 @@ class Navbar extends React.Component {
   <footer class="footer-dark">
     <div class = "container">
     
-    <h4>Sponsors</h4>
-    <h5>Diamond Sponsors</h5>
+    <h2>Sponsors</h2>
+    <h3>Diamond Sponsors</h3>
 
   
             

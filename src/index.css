@@ -238,6 +238,9 @@ h1, h2 {
   opacity: 0.9;
 }
 
+.footer-dark h2{
+  color: white;
+}
 .footer-bottom{
   background-color: #0017e4;
 }
