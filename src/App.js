@@ -27,14 +27,7 @@ class Home extends React.Component {
       return (
         
          <div>
-            <div className="wrapper">
-          <MetaTags>
-            <meta name="description" content="The International Conference on Applied CyberSecurity (ACS) aims to bring together researchers, practitioners, developers and students in the field of cybersecurity to exchange novelties, experience and ideas." />
-            <meta property="og:title" content="International Conference on Applied CyberSecurity (ACS) 2021" />
-            {/* <meta property="og:image" content="path/to/image.jpg" /> */}
-          </MetaTags>
-      
-        </div>
+          
 
             <TopContent/>
 
@@ -76,6 +69,14 @@ class Navbar extends React.Component {
       return (
            <Router>
 <div id = "testing1">
+<div className="wrapper">
+          <MetaTags>
+            <meta name="description" content="The International Conference on Applied CyberSecurity (ACS) aims to bring together researchers, practitioners, developers and students in the field of cybersecurity to exchange novelties, experience and ideas." />
+            <meta property="og:title" content="International Conference on Applied CyberSecurity (ACS) 2021" />
+            {/* <meta property="og:image" content="path/to/image.jpg" /> */}
+          </MetaTags>
+      
+        </div>
 <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg " style={this.state.bgColor}>
     <div class="container-fluid">
         <Link class="navbar-brand" to="/">ICACS 2021</Link>
