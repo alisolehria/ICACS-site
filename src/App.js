@@ -183,11 +183,11 @@ class Navbar extends React.Component {
 
   
             
-            <img  src={hwLogo} alt="Heriot-Watt Logo"  width="15%" heigh="15%" />
+            <img  class="border" src={hwLogo} alt="Heriot-Watt Logo"  width="20%" heigh="20%" />
             </div>
 
             <hr class="mt-2 mb-3"/>
-    <p class="text-right">Copyright ACS© 2002-2021 All rights reserved</p>
+    <p class="text-right">Copyright ACS© 2021 All rights reserved</p>
    
 
   </footer>
