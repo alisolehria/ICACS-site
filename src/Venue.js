@@ -17,7 +17,7 @@ class Venue extends React.Component {
           
              <div class="container">
   <div id = "call" class = "callPapers">
-  <Map
+  {/* <Map
         google={this.props.google}
         zoom={14}
         style={mapStyles}
@@ -27,7 +27,7 @@ class Venue extends React.Component {
             lng: 36.8233
           }
         }
-      />
+      /> */}
   
     </div></div>
          

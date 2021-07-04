@@ -19,7 +19,7 @@ class Registration extends React.Component {
     </div>
     <ul>
         <li>USD0 (FREE) for academcis and students </li>
-        <li>USD100 for industrial delegates</li>
+        <li>USD100 (AED370) for industrial delegates</li>
     </ul>
     </div></div>
          

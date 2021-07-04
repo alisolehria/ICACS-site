@@ -10,6 +10,7 @@ import Venue from './Venue';
 import TopContent from './TopContent';
 import StudentCompetition from './StudentCompetition';
 import './App.css';
+import MetaTags from 'react-meta-tags';
 import {
   HashRouter as Router,
   Switch,
@@ -24,8 +25,16 @@ class Home extends React.Component {
 }
    render() {
       return (
+        
          <div>
-
+            <div className="wrapper">
+          <MetaTags>
+            <meta name="description" content="The International Conference on Applied CyberSecurity (ACS) aims to bring together researchers, practitioners, developers and students in the field of cybersecurity to exchange novelties, experience and ideas." />
+            <meta property="og:title" content="International Conference on Applied CyberSecurity (ACS) 2021" />
+            {/* <meta property="og:image" content="path/to/image.jpg" /> */}
+          </MetaTags>
+      
+        </div>
 
             <TopContent/>
 
