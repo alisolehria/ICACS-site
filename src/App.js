@@ -76,7 +76,7 @@ class Navbar extends React.Component {
 
 <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg " style={this.state.bgColor}>
     <div class="container-fluid">
-        <Link class="navbar-brand" to="/">ICACS 2021</Link>
+        <Link class="navbar-brand" to="/">ACS21</Link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -98,7 +98,7 @@ class Navbar extends React.Component {
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Commitees
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
         <li class="nav-item">
             <Link class="dropdown-item"  to="/organisers">Organisers</Link>
         </li>
@@ -123,12 +123,12 @@ class Navbar extends React.Component {
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Venue
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
         <li class="nav-item">
             <Link class="dropdown-item"  to="/location">How to get here</Link>
         </li>
         <li class="nav-item">
-            <Link class="dropdown-item"  to="/location">Local Attractions</Link>
+            <Link class="dropdown-item"  to={{ pathname:"https://www.tripadvisor.com/Tourism-g295424-Dubai_Emirate_of_Dubai-Vacations.html" }}  target="_blank">Local Attractions</Link>
         </li>
     
         </div>
