@@ -16,7 +16,7 @@ class Instructions extends React.Component {
   <div id = "call" class = "callPapers">
 
 
-        </div>
+     
 <div class = "row">
     <h3>Conference Proceedings and Paper Submission</h3>
     </div>
@@ -47,7 +47,9 @@ class Instructions extends React.Component {
 
 
     </div>
+    </div>
     </section>
+    
     </div>
          
      
