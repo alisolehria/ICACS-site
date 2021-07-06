@@ -2,8 +2,8 @@ import React from 'react';
 import PageCarousel from './PageCarousel';
 import { Map, GoogleApiWrapper } from 'google-maps-react';
 const mapStyles = {
-    width: '100%',
-    height: '100%'
+    width: '70%',
+    height: '70%'
   };
 class Venue extends React.Component {
    
@@ -17,7 +17,7 @@ class Venue extends React.Component {
           
              <div class="container">
   <div id = "call" class = "callPapers">
-  {/* <Map
+  <Map
         google={this.props.google}
         zoom={14}
         style={mapStyles}
@@ -27,7 +27,7 @@ class Venue extends React.Component {
             lng: 36.8233
           }
         }
-      /> */}
+      />
   
     </div></div>
          

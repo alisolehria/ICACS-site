@@ -44,13 +44,7 @@ render(){
 
 </div>
 
-<div class = "row">
-    <h3>Fees</h3>
-    </div>
-    <ul>
-        <li>USD0 (FREE) for academcis and students </li>
-        <li>USD100 (AED370) for industrial delegates</li>
-    </ul>
+
 
 
 
@@ -124,7 +118,7 @@ render(){
 
 Full-length papers are limited to 10 pages and present mature work.
 
-Short papers are limited to 7 pages and contain intermediary results that might not have been extentsively evaluated.
+Short papers are limited to 7 pages and contain intermediary results that might not have been extensively evaluated.
 
 Both types of papers are to be submitted to <a href = "https://easychair.org/conferences/?conf=acs21" target = "_blank"> EasyChair</a>.
 </p>
@@ -140,19 +134,6 @@ Please follow the instructions for authors on the website of the <a href = "http
 <p>We are pleased to announce that the <a href="https://www.mdpi.com/journal/electronics/special_issues/ML_electronics" target = "_blank">Journal of Electronics</a> (impact factor 2.4) has agreed to publish, in a special issue on  <a href="https://www.mdpi.com/journal/electronics/special_issues/ML_electronics" target = "_blank">Security, Usability and Machine Learning</a>, the top papers from the conference. The selected papers are expected to be further developed after the conference and will have to satisfy the journal's review process.</p>
 
 
-<div class = "row">
-<h3>Student Competition</h3>
-</div>
-
-<p>
-BSc students/graduates are invited to submit their security projects and research. It could represent their:
-<ul>
-<li>Degree project and dissertation (graduation not earlier than April 2019)</li>
-<li>A project they did when they were students (graduation not earlier than April 2021)</li>
-
-</ul>
-</p>
-<p>You will find further information <Link to="/studentcompetition">here</Link>.</p>
 
 
 <div class = "row">
@@ -164,11 +145,27 @@ BSc students/graduates are invited to submit their security projects and researc
 All submitted work should be original; not previously or currently submitted for publication elsewhere.
 </p>
 <p>
-Please submit your papers as PDF files with no author identification (no names, emails, affiliations, etc.) You will be able to include that information in the camera ready version. Accepted papers will need to provide their source files, as either Word of Latex zipped projects along with the final PDF.
+Please submit your papers as PDF files with no author identification (no names, emails, affiliations, etc.) You will be able to include that information in the camera ready version. Accepted papers will need to provide their source files, as either Word or Latex zipped projects along with the final PDF.
 </p>
 <p>
 Authors will also need to sign the copyright transfer form provided by our publisher.
 </p>
+
+
+
+<div class = "row">
+<h3>Student Competition</h3>
+</div>
+
+<p>
+BSc students/graduates are invited to submit their security projects and research. It could represent their:
+<ul>
+<li>Degree project and dissertation (graduation not earlier than academic year 2018/2019)</li>
+<li>A project they did when they were students (graduation not earlier than April 2021)</li>
+
+</ul>
+</p>
+<p>You will find further information <Link to="/studentcompetition">here</Link>.</p>
 
 
 

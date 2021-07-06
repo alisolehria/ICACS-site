@@ -44,7 +44,7 @@ class ImportantDates extends React.Component {
 <div class="col">
 <div class="row">
 
-<h3>Poster Session Dates</h3>
+<h3>Poster Submission Dates</h3>
 </div>
 <div class="event">
 <p>Poster/Abstract Submission Date</p>

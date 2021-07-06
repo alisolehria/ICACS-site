@@ -10,20 +10,23 @@ class Registration extends React.Component {
         <div>
              <PageCarousel title="Registration"/>
           
-            
+             <section id="dark-bg">
+ 
              <div class="container">
   <div id = "call" class = "callPapers">
 
 
         </div>
 <div class = "row">
-    <h1>Fees</h1>
+    <h3>Registration Fees</h3>
     </div>
     <ul>
-        <li>USD0 (FREE) for academcis and students </li>
+        <li>USD0 (FREE) for academcis and students (including all participants in the student competition) </li>
         <li>USD100 (AED370) for industrial delegates</li>
     </ul>
-    </div></div>
+    </div>
+    </section>
+    </div>
          
      
             

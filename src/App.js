@@ -9,6 +9,7 @@ import Registration from './Registration';
 import Venue from './Venue';
 import TopContent from './TopContent';
 import StudentCompetition from './StudentCompetition';
+import Instructions from './Instructions';
 import './App.css';
 import hwLogo from './assets/heriot-watt.jpg';
 
@@ -90,6 +91,9 @@ class Navbar extends React.Component {
                 <li class="nav-item">
                    <Link class="nav-link scroll-link"  to="/studentcompetition">Student Competition</Link>
                 </li>
+                <li class="nav-item">
+                   <Link class="nav-link scroll-link"  to="/instructionsforauthors">Instructions for Authors</Link>
+                </li>
                  <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Commitees
@@ -166,6 +170,10 @@ class Navbar extends React.Component {
 
         <Route exact path="/location">
           <Venue/>
+        </Route>
+
+        <Route exact path="/instructionsforauthors">
+          <Instructions/>
         </Route>
 
 
