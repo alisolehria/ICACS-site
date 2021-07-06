@@ -33,7 +33,7 @@ class Instructions extends React.Component {
 
       <h4>Paper Formatting</h4>
 
-      <p>Please follow the instructions for authors on the website of the <a href="https://www.springer.com/series/15179" target="_blank">Lecture Notes in Networks and Systems Series</a> . You can use either the word or latex templates to produce your PDF. For your convenience, you can find <b>here</b> the latex template for articles. It produces this <b>pdf file.</b> </p>
+      <p>Please follow the instructions for authors on the website of the <a href="https://www.springer.com/series/15179" target="_blank">Lecture Notes in Networks and Systems Series</a> . You can use either the word or latex templates to produce your PDF. For your convenience, you can find <b>here</b> the <a href="./ACS21 Springer Latex Template.zip" download>latex template</a> for articles. It produces this <a href="./ACS21_Springer_Latex_Template.pdf" download>PDF</a> file.</p>
       <div class = "row">
       <h3>Journal Publication </h3></div>
         <p>We are pleased to announce that the <a href="https://www.mdpi.com/journal/electronics/special_issues/ML_electronics" target="_blank">Journal of Electronics</a> (impact factor 2.4) has agreed to publish, in a special issue on <a href="https://www.mdpi.com/journal/electronics/special_issues/ML_electronics" target="_blank">Security, Usability and Machine Learning</a>, the top papers from the conference. The selected papers are expected to be further developed after the conference and will have to satisfy the journal's review process. </p>
