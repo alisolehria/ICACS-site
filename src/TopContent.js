@@ -34,7 +34,7 @@ class TopContent extends React.Component {
   </div>
   
              <div id = "countdown">
-     <DateCountdown dateTo='November 13, 2021 00:00:00 GMT+03:00' />
+     <DateCountdown dateTo='November 13, 2021 00:00:00 GMT+03:00' mostSignificantFigure="day"/>
   
      </div>
   
