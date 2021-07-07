@@ -9,7 +9,7 @@ class TopContent extends React.Component {
   
           <div class="row">
               <div class="col-md-8 offset-md-2 text">
-                  <h1 class="wow fadeInLeftBig"> International Conference on Applied CyberSecurity (ACS) 2021</h1>
+                  <h1 class="wow fadeInLeftBig"> International Conference on Applied CyberSecurity 2021 (ACS21)</h1>
                   <h3 class="conference_date"> 13-14 November 2021 | Dubai, UAE</h3>
                   <div class="description wow fadeInLeftBig">
                       <p>
@@ -34,7 +34,7 @@ class TopContent extends React.Component {
   </div>
   
              <div id = "countdown">
-     <DateCountdown dateTo='November 13, 2021 00:00:00 GMT+03:00' mostSignificantFigure="day"/>
+     <DateCountdown dateTo='November 13, 2021 00:00:00 GMT+04:00' mostSignificantFigure="day"/>
   
      </div>
   

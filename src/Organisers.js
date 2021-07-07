@@ -30,7 +30,9 @@ class Organisers extends React.Component {
   <h1>Organizing Committee</h1>
   </div>
   <div class="multiple">
-  <h2>Ahcene Bounceur, Bretagne Occidentale University, France - Co-chair
+  <h2>
+    <br/>Hani Ragab, Heriot-Watt University, UAE - General Chair
+    Ahcene Bounceur, Bretagne Occidentale University, France - Co-chair
     <br/>Prof. Madjid Merabti, University of Sharjah, UAE
     <br/>Dr. Samia Loucif, Zayed University, UAE    
   <br/>Adrian Turcanu, Heriot-Watt University, UAE - Student Compeitition

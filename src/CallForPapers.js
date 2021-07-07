@@ -47,8 +47,7 @@ render(){
 
 
 
-
-    <div class = "row">
+    <div class = "row" id ="conf-topics">
 <h3>Conference Topics</h3>
 </div>
 
