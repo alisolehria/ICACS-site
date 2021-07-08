@@ -26,6 +26,10 @@ class Registration extends React.Component {
     </ul>
     </div>
     </div>
+    <div class = "row">
+    <h3>Registration Link</h3>
+    </div>
+    <p>Coming Soon</p>
     </section>
     </div>
          
