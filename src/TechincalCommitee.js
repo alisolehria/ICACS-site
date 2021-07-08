@@ -9,7 +9,7 @@ class TechnicalCommitee extends React.Component {
     return (
   <div>
        <PageCarousel title="Techincal Commitee"/>
-         <section id="dark-bg">
+
       <div class = "container">
   <div id = "call" class = "callPapers">
   
@@ -78,7 +78,7 @@ class TechnicalCommitee extends React.Component {
   
   </div>
   
-  </section>
+ 
   </div>
       );
   

@@ -9,7 +9,7 @@ class Organisers extends React.Component {
     return (
   <div>
        <PageCarousel title="Organisers"/>
-         <section id="dark-bg">
+
       <div class = "container">
   <div id = "call" class="org">
   
@@ -52,7 +52,7 @@ class Organisers extends React.Component {
   
   </div>
   
-  </section>
+
   </div>
       );
   

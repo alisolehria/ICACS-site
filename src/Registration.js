@@ -10,7 +10,7 @@ class Registration extends React.Component {
         <div>
              <PageCarousel title="Registration"/>
           
-             <section id="dark-bg">
+          
  
              <div class="container">
   <div id = "call" class = "callPapers">
@@ -31,7 +31,7 @@ class Registration extends React.Component {
     </div>
     </div>
 
-    </section>
+ 
     </div>
          
      
