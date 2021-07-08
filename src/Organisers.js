@@ -32,7 +32,8 @@ class Organisers extends React.Component {
   <div class="multiple">
   <h2>
     <br/>Hani Ragab, Heriot-Watt University, UAE - General Chair
-    Ahcene Bounceur, Bretagne Occidentale University, France - Co-chair
+    <br/>Hadj Batatia, Heriot-Watt University, UAE - Co-chair
+    <br/>Ahcene Bounceur, Bretagne Occidentale University, France - Co-chair
     <br/>Prof. Madjid Merabti, University of Sharjah, UAE
     <br/>Dr. Samia Loucif, Zayed University, UAE    
   <br/>Adrian Turcanu, Heriot-Watt University, UAE - Student Compeitition
