@@ -29,12 +29,12 @@ BSc students/graduates are invited to submit their security projects and researc
 <ol>
   <li>The poster itself. </li>
   <li>A one-page description of your work and discussion of the significance of its outcomes.</li>
-  <li>A link to a public or unlisted youtube video where you present your poster in 5 to 10 minutes. You can find more information about public and unlisted videos <a href="https://support.google.com/youtube/answer/157177?co=GENIE.Platform" target="_blank">here</a>. Please do include the link to your video in your one-page description.</li>
+  <li>A link to a public or unlisted YouTube video where you present your poster in 5 to 10 minutes. You can find more information about public and unlisted videos <a href="https://support.google.com/youtube/answer/157177?co=GENIE.Platform" target="_blank">here</a>. Please do include the link to your video in your one-page description.</li>
 </ol>
 
 <p style={{fontWeight: 'bold'}}>Submission</p>
 
-<p>Your submission should be a PDF file with two pages: the first is the project description and the second is the poster. Submit your file here. Under the "Abstract" field of the submission, submit a link to your video. Upload your submission under the "Files" section where you are asked to upload "your paper".</p>
+<p>Your submission should be a PDF file with two pages: the first is the project description and the second is the poster. Submit your file <a href="https://easychair.org/conferences/?conf=acs21" target="_blank">here</a>. Under the "Abstract" field of the submission, submit a link to your video. Upload your submission under the "Files" section where you are asked to upload "your paper".</p>
 
 <p>Please do note that poster submission will not be published in the conference proceedings, but will still be published on the conference website."</p>
 
