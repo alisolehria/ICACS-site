@@ -37,7 +37,7 @@ BSc students/graduates are invited to submit their security projects and researc
 
 <p>Your submission should be a PDF file with two pages: the first is the project description and the second is the poster. Submit your file <a href="https://easychair.org/conferences/?conf=acs21" target="_blank">here</a>. Under the "Abstract" field of the submission, submit a link to your video. Upload your submission under the "Files" section where you are asked to upload "your paper".</p>
 
-<p>Please do note that poster submission will not be published in the conference proceedings, but will still be published on the conference website. <p style={{fontWeight: 'bold'}}>Deadline</p>: under <Link to="/importantdates">important dates</Link>.</p>
+<p>Please do note that poster submission will not be published in the conference proceedings, but will still be published on the conference website. <b>Deadline</b>: under <Link to="/importantdates">important dates</Link>.</p>
 <p style={{fontWeight: 'bold'}}>The winners of the competition will be awarded the following prizes:</p>
 <ul>
     <li>First prize – AED1,500 + 35% Scholarship to study an MSc programme at Heriot-Watt University, Dubai.</li>
