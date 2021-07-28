@@ -27,7 +27,7 @@ class Registration extends React.Component {
     <div class = "row">
     <h3>Registration Link</h3>
     </div>
-    <p>Coming Soon</p>
+    <a href="https://www.eventbrite.com/e/the-international-conference-on-applied-cybersecurity-2021-acs21-tickets-164990451883" target="_blank">https://www.eventbrite.com/e/the-international-conference-on-applied-cybersecurity-2021-acs21-tickets-164990451883</a>
     </div>
     </div>
 
