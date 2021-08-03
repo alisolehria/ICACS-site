@@ -3,12 +3,12 @@ import PageCarousel from './PageCarousel';
 
 class TechnicalCommitee extends React.Component {
     componentDidMount() {
-    document.title = "Technical Commitee";
+    document.title = "Technical Committee";
   }
   render(){
     return (
   <div>
-       <PageCarousel title="Techincal Commitee"/>
+       <PageCarousel title="Technical Committee"/>
 
       <div class = "container">
   <div id = "call" class = "callPapers">

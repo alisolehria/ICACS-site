@@ -96,7 +96,7 @@ class Navbar extends React.Component {
                 </li>
                  <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Commitees
+        Committees
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
         <li class="nav-item">
@@ -104,7 +104,7 @@ class Navbar extends React.Component {
         </li>
 
           <li class="nav-item">
-              <Link class="dropdown-item"  to="/technicalcommitee">Techincal Commitee</Link>
+              <Link class="dropdown-item"  to="/technicalcommitee">Technical Committee</Link>
           </li>
 
         </div>

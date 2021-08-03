@@ -51,7 +51,7 @@ render(){
 <h3>Conference Topics</h3>
 </div>
 
-      <p>Topics of interests are, but not limited to: </p>
+      <p>Topics of interest are, but not limited to: </p>
       <ul>
           <li>Machine learning applications to security and data-driven security</li>
           <li>AI security </li>
