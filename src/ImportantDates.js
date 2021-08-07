@@ -26,6 +26,12 @@ class ImportantDates extends React.Component {
 </div>
 
 
+<div class="event">
+
+<p>Paper submission deadline (extended)</p>
+<h2>28th August 2021</h2>
+</div>
+
 
 <div class="event">
 <p>Paper acceptance notification</p>
