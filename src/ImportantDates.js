@@ -20,10 +20,10 @@ class ImportantDates extends React.Component {
 <h3>Paper Submission Dates</h3>
 </div>
 
-<div class="event">
+{/* <div class="event">
 <p>Paper submission deadline</p>
 <h2>8th August 2021</h2>
-</div>
+</div> */}
 
 
 <div class="event">
@@ -54,7 +54,7 @@ class ImportantDates extends React.Component {
 </div>
 <div class="event">
 <p>Poster/Abstract Submission Date</p>
-<h2>20th August 2021</h2>
+<h2>25th August 2021</h2>
 </div>
 
 
