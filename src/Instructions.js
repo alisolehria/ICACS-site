@@ -49,7 +49,8 @@ class Instructions extends React.Component {
     </div>
     </div>
     </section>
-    
+    <a href="./3-Publishing Agreement.docx" download></a> 
+    <a href="./4-Permission Request Form (Springer).doc" download></a> 
     </div>
          
      
