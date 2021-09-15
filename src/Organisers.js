@@ -39,6 +39,7 @@ class Organisers extends React.Component {
   <br/>Hind Zantout, Heriot-Watt University, UAE
   <br/>Mohammad Hamdan, Heriot-Watt University, UAE
   <br/>Neamat Elgayar, Heriot-Watt University, UAE
+  <br/>Abrar Ullah, Heriot-Watt University, UAE
   <br/>Smitha Kumar, Heriot-Watt University, UAE
   <br/>Ali Muzaffar, Heriot-Watt University, UAE - Web master
   </h2>
