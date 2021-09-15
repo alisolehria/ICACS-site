@@ -44,13 +44,13 @@ class Instructions extends React.Component {
         <p>All submitted work should be original; not previously or currently submitted for publication elsewhere. </p>
         <p>Authors will also need to sign the copyright transfer form provided by our publisher.    </p>
 
-
+        <a href="./3-Publishing Agreement.docx" download></a> 
+    <a href="./4-Permission Request Form (Springer).doc" download></a> 
 
     </div>
     </div>
     </section>
-    <a href="./3-Publishing Agreement.docx" download></a> 
-    <a href="./4-Permission Request Form (Springer).doc" download></a> 
+  
     </div>
          
      
