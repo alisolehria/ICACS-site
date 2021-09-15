@@ -31,7 +31,6 @@ class TechnicalCommitee extends React.Component {
   <li>Dr. Djedjiga Mouheb, University of Sharjah, United Arab Emirates</li>
   <li>Dr. Mike Just, Heriot-Watt University, UK</li>
   <li>Dr. Lilia Georgieva, Heriot-Watt University, UK</li>
-  <li>Dr. Samia Loucif, Zayed University</li>
   <li>Prof. Mohammed Ould Khaoua, University of Blida, Algeria</li>
   <li>Salih Ismail, Curtin University, UAE</li>
   <li>Dr. Baber Majid Bhatti, University of South Australia.</li>
