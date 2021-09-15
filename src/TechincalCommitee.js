@@ -45,6 +45,7 @@ class TechnicalCommitee extends React.Component {
   <li>Dr. Toqeer Ali Syed, Islamic University of Medina, Saudi Arabia</li>
   <li>Dr. Abdul Rauf, RISE-Research Institute of Sweden in Vasteras,Sweden</li>
   <li>Dr. Imran Ahmad Mughal, Institute of Management Sciences, Pakistan</li>
+  <li>Dr. Samia Loucif, Zayed University, UAE  </li>
   <li>Dr. Adnan Amin, Institute of Management Sciences, Pakistan</li>
   <li>Dr. Awais Adnan, Institute of Management Sciences, Pakistan</li>
   <li>Dr. Hatem Ahriz, Robert Gordon University, UK </li>
