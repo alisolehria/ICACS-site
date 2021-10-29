@@ -249,3 +249,9 @@ h1, h2 {
 hr{
   background-color: white;
 }
+#keynote {
+  float: left;
+  width:  200px;
+  height: 200px;
+  background-size: cover;
+}
