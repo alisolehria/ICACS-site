@@ -82,7 +82,7 @@ class Program extends React.Component {
 <h3>Program</h3>
 
 </div>
-<p>The program can be downloaded in PDF fromat from <a href="./ACS21 Programme.docx" download>here.</a></p> 
+<p>The program can be downloaded in PDF fromat from <a href="./ACS21 Programme.pdf" download>here.</a></p> 
 <h3>All timings are Gulf Standard Time</h3>
 <table border="1" cellspacing="0" cellpadding="0" width="100%">
     <tbody>
