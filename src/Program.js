@@ -51,7 +51,7 @@ class Program extends React.Component {
     <div class="col-lg-3 col-md-3 col-xs-3 thumb">
           <div class="row">
             
-          <img class="mx-auto d-block" id="keynote" src={keyNote2} alt="Keynote Speaker"    />
+          <img class="mx-auto d-block" id="keynote" src={keyNote3} alt="Keynote Speaker"    />
           </div>
           <br/>
 
@@ -65,7 +65,7 @@ class Program extends React.Component {
     <div class="col-lg-3 col-md-3 col-xs-3 thumb">
           <div class="row">
             
-          <img class="mx-auto d-block" id="keynote" src={keyNote3} alt="Keynote Speaker"  />
+          <img class="mx-auto d-block" id="keynote" src={keyNote2} alt="Keynote Speaker"  />
           </div>
           <br/>
 
