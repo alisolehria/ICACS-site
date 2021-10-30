@@ -425,6 +425,305 @@ class Program extends React.Component {
         </tr>
     </tbody>
 </table>
+<table border="1" cellspacing="0" cellpadding="0" width="100%">
+    <tbody>
+        <tr>
+            <td width="642" nowrap="" colspan="2" valign="top">
+                <p>
+                    <strong>Day 2 - Sunday 14th November (Online)</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="642" nowrap="" colspan="2" valign="top">
+                <p>
+                    <strong>Keynotes </strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>0945 - 1030</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    Keynote 1: Dr. David Tien<strong></strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1030 - 1045</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    Tea/Coffee break
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1045 - 1130</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    Keynote 2: Prof. M Quafafou
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1130 - 1140</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    <strong>Tea/Coffee break</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="642" nowrap="" colspan="2" valign="top">
+                <p>
+                    <strong>Session 1, online </strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1140 - 1200</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    The Substructure for Estimation of Miscellaneous Data
+                    Failures using Distributed Clustering Techniques
+                </p>
+                <p>
+                    <em>
+                        Abdul Ahad, Sreenath Kashyap, Marlene Grace Verghese
+                    </em>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1200 - 1220</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    Performance Enhancement of SAC-OCDMA System Using an
+                    Identity Row Shifting Matrix Code
+                </p>
+                <p>
+                    <em>
+                        Mohanad Alayedi, Abdlehamid Cherifi, Abelhak Ferhat
+                        Hamida, Boubakar Seddik Bouazza, C. B. M Rashidi
+                    </em>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1220 - 1240</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    Effect of Encryption Delay on FTP &amp; VoIP Traffic based
+                    on TCP/UDP
+                </p>
+                <p>
+                    <em>
+                        Muhammad Arif, Muhammad Asif Habib, Nasir Mahmood,
+                        Asadullah Tariq, Mudassar Ahmad
+                    </em>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1240 - 1300</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    Security Issues and Defenses in Virtualization
+                </p>
+                <p>
+                    <em>Rouaa Alzoubi, Bayan Mahfood, Sohail Sohail Abbas</em>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1300 - 1400</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    <strong>Break</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="642" nowrap="" colspan="2" valign="top">
+                <p>
+                    <strong>Session 2, online </strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1400 - 1420</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    Malware Detection using Machine Learning Algorithms for
+                    Windows Platform
+                </p>
+                <p>
+                    <em>
+                        Abrar Khalid, Muhammad Asif, Maaz Ahmad, Toqeer
+                        Mahmood, Muhammad Arslan Raza
+                    </em>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1420 - 1440</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    An IoT based Remote Well Baby Care Solution
+                </p>
+                <p>
+                    <em>
+                        Khushi Gupta, Leah Mutanu, Jeet Gohil, Abdihamid Ali
+                    </em>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1440 - 1500</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    Evaluation of Selective Reactive Routing Protocols of
+                    Mobile Adhoc Network
+                </p>
+                <p>
+                    <em>
+                        Muhammad Kashif Nazir, Muhammad Asif Habib, Mudassar
+                        Ahmad
+                    </em>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1500 - 1520</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    <strong>Break</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="642" nowrap="" colspan="2" valign="top">
+                <p>
+                    <strong>Session 3, online</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1520 - 1540</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    Using Physically Unclonable Function for Increasing
+                    Security of Internet of Things
+                </p>
+                <p>
+                    <em>
+                        Mohammad Taghi Fatehi Khaje, Mona Moradi and Kivan Navi
+                    </em>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1540 - 1600</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    A Novel Approach Integrating Design Thinking Techniques in
+                    Cyber Exercise Development
+                </p>
+                <p>
+                    <em>Melisa Gafic, Simon Tjoa and Peter Kieseberg</em>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1600 - 1630</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    Distributed and Reliable Leader Election Framework for
+                    Wireless Sensor Network (DRLEF)
+                </p>
+                <p>
+                    <em>Nadim Elsakaan and Kamal Amroun</em>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="113" nowrap="" valign="top">
+                <p>
+                    <strong>1630 - 1700</strong>
+                </p>
+            </td>
+            <td width="529" nowrap="" valign="top">
+                <p>
+                    <strong>Closing ceremony (face-to-face/online)</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 <br></br>
     </div>
 
