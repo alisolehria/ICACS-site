@@ -34,17 +34,19 @@ class Program extends React.Component {
         <p>Day 1: 0945 - 1030</p>
           </div>
     </div>
+ 
     <div class="col-lg-3 col-md-3 col-xs-3 thumb">
           <div class="row">
             
-          <img class="mx-auto d-block" id="keynote" src={keyNote} alt="Keynote Speaker"  />
+          <img class="mx-auto d-block" id="keynote" src={keyNote} alt="Keynote Speaker"    />
           </div>
           <br/>
 
           <div class="text-center">
-        <h4>Biju Hameed</h4>
-
+          <h4>Biju Hameed</h4>
+       <div class ="row">
         <p>Head of Technology Infrastructure Operations, Dubai Airports</p>
+        </div>
         <p>Day 1: 1045 - 1130</p> 
           </div>
     </div>
@@ -147,7 +149,7 @@ class Program extends React.Component {
             </td>
             <td width="529" nowrap="" valign="top">
                 <p>
-                    Keynote 2: Dr. Bushra Al Blooshi
+                    Keynote 2: Biju Hameed
                 </p>
             </td>
         </tr>
