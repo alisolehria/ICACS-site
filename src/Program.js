@@ -42,9 +42,9 @@ class Program extends React.Component {
           <br/>
 
           <div class="text-center">
-        <h4>Dr. Bushra Al Blooshi</h4>
+        <h4>Biju Hameed</h4>
 
-        <p>Dubai Electronic Security Center, Government of Dubai</p>
+        <p>Head of Technology Infrastructure Operations, Dubai Airports</p>
         <p>Day 1: 1045 - 1130</p> 
           </div>
     </div>
