@@ -285,13 +285,14 @@ class Program extends React.Component {
                 </p>
             </td>
             <td width="529" nowrap="" valign="top">
-                <p>
-                    A Comparative Study of Machine Learning Binary
-                    Classification Methods for Botnet Detection
+            <p>
+                    Feature Selection Approach for Phishing Detection based on
+                    Machine Learning
                 </p>
                 <p>
-                    <em>Nadim Elsakaan and Kamal Amroun</em>
+                    <em>Yi Wei and Yuji Sekiya</em>
                 </p>
+  
             </td>
         </tr>
         <tr>
@@ -301,13 +302,13 @@ class Program extends React.Component {
                 </p>
             </td>
             <td width="529" nowrap="" valign="top">
-                <p>
-                    Detecting Vulnerabilities in Source Code using Machine
-                    Learning
+            <p>
+                    Vulnerability Detection using Deep Learning
                 </p>
                 <p>
-                    <em>Omar Hany and Mervat Abu-Elkheir </em>
+                    <em>Mahmoud Osama Elsheikh</em>
                 </p>
+      
             </td>
         </tr>
         <tr>
@@ -317,13 +318,14 @@ class Program extends React.Component {
                 </p>
             </td>
             <td width="529" nowrap="" valign="top">
-                <p>
-                    Android Malware Detection Using Long Short Term Memory
-                    Recurrent Neural Networks
+            <p>
+                    Detecting Vulnerabilities in Source Code using Machine
+                    Learning
                 </p>
                 <p>
-                    <em>Lilia Georgieva and Basile Lamarque </em>
+                    <em>Omar Hany and Mervat Abu-Elkheir </em>
                 </p>
+        
             </td>
         </tr>
         <tr>
@@ -352,11 +354,12 @@ class Program extends React.Component {
                 </p>
             </td>
             <td width="529" nowrap="" valign="top">
-                <p>
-                    Vulnerability Detection using Deep Learning
+            <p>
+                    Android Malware Detection Using Long Short Term Memory
+                    Recurrent Neural Networks
                 </p>
                 <p>
-                    <em>Mahmoud Osama Elsheikh</em>
+                    <em>Lilia Georgieva and Basile Lamarque </em>
                 </p>
             </td>
         </tr>
@@ -367,12 +370,12 @@ class Program extends React.Component {
                 </p>
             </td>
             <td width="529" nowrap="" valign="top">
-                <p>
-                    Feature Selection Approach for Phishing Detection based on
-                    Machine Learning
+            <p>
+                    A Comparative Study of Machine Learning Binary
+                    Classification Methods for Botnet Detection
                 </p>
                 <p>
-                    <em>Yi Wei and Yuji Sekiya</em>
+                    <em>Nadim Elsakaan and Kamal Amroun</em>
                 </p>
             </td>
         </tr>
