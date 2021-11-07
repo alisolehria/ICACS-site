@@ -101,7 +101,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Opening and keynotes </strong>
+                    <strong>Opening and keynotes, room 2.09 and online, Zoom link: <a href="https://us06web.zoom.us/j/84324984709" target="_blank">https://us06web.zoom.us/j/84324984709</a>  </strong>
                 </p>
             </td>
         </tr>
@@ -168,7 +168,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Session 1, room 2.09 and online </strong>
+                    <strong>Session 1, room 2.09 and online, Zoom link: <a href="https://us06web.zoom.us/j/86262395134" target="_blank">https://us06web.zoom.us/j/86262395134</a>  </strong>
                 </p>
             </td>
         </tr>
@@ -256,7 +256,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Session 2, room 5.33 and online </strong>
+                    <strong>Session 2, room 5.33 and online, Zoom link: <a href="https://us06web.zoom.us/j/88331477559" target="_blank">https://us06web.zoom.us/j/88331477559</a>  </strong>
                 </p>
             </td>
         </tr>
@@ -319,11 +319,11 @@ class Program extends React.Component {
             </td>
             <td width="529" nowrap="" valign="top">
             <p>
-                    Detecting Vulnerabilities in Source Code using Machine
-                    Learning
+                    Multi-Face Recognition Systems Based on Deep and Machine
+                    Learning Algorithms
                 </p>
                 <p>
-                    <em>Omar Hany and Mervat Abu-Elkheir </em>
+                    <em>Badreddine Alane and Saad Bouguezel</em>
                 </p>
         
             </td>
@@ -343,7 +343,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Session 3, room 5.33 and online </strong>
+                    <strong>Session 3, room 5.33 and online, Zoom link: <a href="https://us06web.zoom.us/j/88331477559" target="_blank">https://us06web.zoom.us/j/88331477559</a>  </strong>
                 </p>
             </td>
         </tr>
@@ -404,13 +404,14 @@ class Program extends React.Component {
                 </p>
             </td>
             <td width="529" nowrap="" valign="top">
-                <p>
-                    Multi-Face Recognition Systems Based on Deep and Machine
-                    Learning Algorithms
+            <p>
+                    Detecting Vulnerabilities in Source Code using Machine
+                    Learning
                 </p>
                 <p>
-                    <em>Badreddine Alane and Saad Bouguezel</em>
+                    <em>Omar Hany and Mervat Abu-Elkheir </em>
                 </p>
+
             </td>
         </tr>
         <tr>
@@ -442,7 +443,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Keynotes </strong>
+                    <strong>Keynotes, online, Zoom link: <a href="https://us06web.zoom.us/j/81923443496" target="_blank">https://us06web.zoom.us/j/81923443496</a> </strong>
                 </p>
             </td>
         </tr>
@@ -497,7 +498,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Session 1, online </strong>
+                    <strong>Session 1, online, Zoom link: <a href="https://us06web.zoom.us/j/83268757362" target="_blank">https://us06web.zoom.us/j/83268757362</a>  </strong>
                 </p>
             </td>
         </tr>
@@ -587,7 +588,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Session 2, online </strong>
+                    <strong>Session 2, online, Zoom link: <a href="https://us06web.zoom.us/j/83268757362" target="_blank">https://us06web.zoom.us/j/83268757362</a>  </strong>
                 </p>
             </td>
         </tr>
@@ -661,7 +662,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Session 3, online</strong>
+                    <strong>Session 3, online, Zoom link: <a href="https://us06web.zoom.us/j/87620168495" target="_blank">https://us06web.zoom.us/j/87620168495</a> </strong>
                 </p>
             </td>
         </tr>
