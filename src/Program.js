@@ -724,7 +724,7 @@ class Program extends React.Component {
             </td>
             <td width="529" nowrap="" valign="top">
                 <p>
-                    <strong>Closing ceremony (face-to-face/online)</strong>
+                    <strong>Closing ceremony (face-to-face/online), Zoom link: <a href="https://us06web.zoom.us/j/8192344349" target="_blank">https://us06web.zoom.us/j/8192344349</a></strong>
                 </p>
             </td>
         </tr>
