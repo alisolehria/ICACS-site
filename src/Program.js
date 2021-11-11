@@ -256,7 +256,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Session 2, room 5.33 and online, Zoom link: <a href="https://us06web.zoom.us/j/88331477559" target="_blank">https://us06web.zoom.us/j/88331477559</a>  </strong>
+                    <strong>Session 2, room 2.03 and online, Zoom link: <a href="https://us06web.zoom.us/j/88331477559" target="_blank">https://us06web.zoom.us/j/88331477559</a>  </strong>
                 </p>
             </td>
         </tr>
@@ -343,7 +343,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Session 3, room 5.33 and online, Zoom link: <a href="https://us06web.zoom.us/j/88331477559" target="_blank">https://us06web.zoom.us/j/88331477559</a>  </strong>
+                    <strong>Session 3, room 2.03 and online, Zoom link: <a href="https://us06web.zoom.us/j/88331477559" target="_blank">https://us06web.zoom.us/j/88331477559</a>  </strong>
                 </p>
             </td>
         </tr>
