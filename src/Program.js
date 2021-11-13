@@ -101,7 +101,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Opening and keynotes, room 2.09 and online, Zoom link: <a href="https://us06web.zoom.us/j/84324984709" target="_blank">https://us06web.zoom.us/j/84324984709</a>  </strong>
+                    <strong>Opening and keynotes, room 2.09 and online, link: <a href="https://us06web.zoom.us/j/84324984709" target="_blank">https://us06web.zoom.us/j/84324984709</a>  </strong>
                 </p>
             </td>
         </tr>
@@ -168,7 +168,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Session 1, room 2.09 and online, Zoom link: <a href="https://us06web.zoom.us/j/86262395134" target="_blank">https://us06web.zoom.us/j/86262395134</a>  </strong>
+                    <strong>Session 1, room 2.09 and online, link: <a href="https://us06web.zoom.us/j/86262395134" target="_blank">https://us06web.zoom.us/j/86262395134</a>  </strong>
                 </p>
             </td>
         </tr>
@@ -256,7 +256,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Session 2, room 2.03 and online, Zoom link: <a href="https://eu.bbcollab.com/guest/f33958c81fd34426bc5ddc9ab0e564a0" target="_blank">https://eu.bbcollab.com/guest/f33958c81fd34426bc5ddc9ab0e564a0</a>  </strong>
+                    <strong>Session 2, room 2.03 and online, link: <a href="https://eu.bbcollab.com/guest/f33958c81fd34426bc5ddc9ab0e564a0" target="_blank">https://eu.bbcollab.com/guest/f33958c81fd34426bc5ddc9ab0e564a0</a>  </strong>
                 </p>
             </td>
         </tr>
@@ -343,7 +343,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Session 3, room 2.03 and online, Zoom link: <a href="https://eu.bbcollab.com/guest/f33958c81fd34426bc5ddc9ab0e564a0" target="_blank">https://eu.bbcollab.com/guest/f33958c81fd34426bc5ddc9ab0e564a0</a>  </strong>
+                    <strong>Session 3, room 2.03 and online, link: <a href="https://eu.bbcollab.com/guest/f33958c81fd34426bc5ddc9ab0e564a0" target="_blank">https://eu.bbcollab.com/guest/f33958c81fd34426bc5ddc9ab0e564a0</a>  </strong>
                 </p>
             </td>
         </tr>
@@ -443,7 +443,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Keynotes, online, Zoom link: <a href="https://eu.bbcollab.com/guest/038ad680eb4c418289df4cddf7569b2d" target="_blank">https://eu.bbcollab.com/guest/038ad680eb4c418289df4cddf7569b2d</a> </strong>
+                    <strong>Keynotes, online, link: <a href="https://eu.bbcollab.com/guest/038ad680eb4c418289df4cddf7569b2d" target="_blank">https://eu.bbcollab.com/guest/038ad680eb4c418289df4cddf7569b2d</a> </strong>
                 </p>
             </td>
         </tr>
@@ -498,7 +498,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Session 1, online, Zoom link: <a href="https://eu.bbcollab.com/guest/b6052e4f893c4526b0646abeb172e5a8" target="_blank">https://eu.bbcollab.com/guest/b6052e4f893c4526b0646abeb172e5a8</a>  </strong>
+                    <strong>Session 1, online, link: <a href="https://eu.bbcollab.com/guest/b6052e4f893c4526b0646abeb172e5a8" target="_blank">https://eu.bbcollab.com/guest/b6052e4f893c4526b0646abeb172e5a8</a>  </strong>
                 </p>
             </td>
         </tr>
@@ -588,7 +588,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Session 2, online, Zoom link: <a href="https://eu.bbcollab.com/guest/b6052e4f893c4526b0646abeb172e5a8   " target="_blank">https://eu.bbcollab.com/guest/b6052e4f893c4526b0646abeb172e5a8</a>  </strong>
+                    <strong>Session 2, online, link: <a href="https://eu.bbcollab.com/guest/b6052e4f893c4526b0646abeb172e5a8   " target="_blank">https://eu.bbcollab.com/guest/b6052e4f893c4526b0646abeb172e5a8</a>  </strong>
                 </p>
             </td>
         </tr>
@@ -662,7 +662,7 @@ class Program extends React.Component {
         <tr>
             <td width="642" nowrap="" colspan="2" valign="top">
                 <p>
-                    <strong>Session 3, online, Zoom link: <a href="https://eu.bbcollab.com/guest/8d7ae000800640b2bd8b31ebcc129e31" target="_blank">https://eu.bbcollab.com/guest/8d7ae000800640b2bd8b31ebcc129e31</a> </strong>
+                    <strong>Session 3, online, link: <a href="https://eu.bbcollab.com/guest/8d7ae000800640b2bd8b31ebcc129e31" target="_blank">https://eu.bbcollab.com/guest/8d7ae000800640b2bd8b31ebcc129e31</a> </strong>
                 </p>
             </td>
         </tr>
@@ -724,7 +724,7 @@ class Program extends React.Component {
             </td>
             <td width="529" nowrap="" valign="top">
                 <p>
-                    <strong>Closing ceremony (face-to-face/online), Zoom link: <a href="https://us06web.zoom.us/j/8192344349" target="_blank">https://us06web.zoom.us/j/8192344349</a></strong>
+                    <strong>Closing ceremony (face-to-face/online), link: <a href="https://us06web.zoom.us/j/8192344349" target="_blank">https://us06web.zoom.us/j/8192344349</a></strong>
                 </p>
             </td>
         </tr>
