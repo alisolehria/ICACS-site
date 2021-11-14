@@ -724,7 +724,7 @@ class Program extends React.Component {
             </td>
             <td width="529" nowrap="" valign="top">
                 <p>
-                    <strong>Closing ceremony (face-to-face/online), link: <a href="https://us06web.zoom.us/j/8192344349" target="_blank">https://us06web.zoom.us/j/8192344349</a></strong>
+                    <strong>Closing ceremony (face-to-face/online), link: same as Session <a href = "https://eu.bbcollab.com/guest/8d7ae000800640b2bd8b31ebcc129e31" target="_blank">3</a></strong>
                 </p>
             </td>
         </tr>
