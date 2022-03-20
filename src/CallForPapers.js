@@ -19,7 +19,12 @@ render(){
 <div id = "call" class = "callPapers">
 
 <div class ="row d-flex flex-wrap align-items-center">
-<div class="col-lg-6 thumb">
+<div class="col-lg-3 thumb">
+ 
+
+
+</div>
+<div class="col-lg-4 thumb">
  
     <img src={Springer} alt="Springer" />
 
@@ -27,7 +32,7 @@ render(){
 
 
 
-<div class="col-lg-6 thumb">
+<div class="col-lg-4 thumb">
 
    
 <img src={lecture} alt="lecture" />
