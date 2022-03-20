@@ -19,7 +19,7 @@ render(){
 <div id = "call" class = "callPapers">
 
 <div class ="row d-flex flex-wrap align-items-center">
-<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+<div class="col-lg-6 thumb">
  
     <img src={Springer} alt="Springer" />
 
@@ -27,16 +27,10 @@ render(){
 
 
 
-<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+<div class="col-lg-6 thumb">
 
    
 <img src={lecture} alt="lecture" />
-
-</div>
-<div class="col-lg-4 col-md-4 col-xs-4 thumb">
-  
-
-    <img src={MDPI} alt="MDPI" />
 
 </div>
 
@@ -184,10 +178,10 @@ BSc students/graduates are invited to submit their security projects and researc
 <img src={lecture} alt="lecture" />
 
 </div>
-<div class="col-lg-4 col-md-4 col-xs-4 thumb">
-  
+<div class="col-lg-4     col-md-4 col-xs-4 thumb">
 
-    <img src={MDPI} alt="MDPI" />
+   
+<img src={Scopus} alt="Scopus" />
 
 </div>
 </div>
@@ -199,12 +193,7 @@ BSc students/graduates are invited to submit their security projects and researc
 
 
 
-<div class="col-lg-6 col-md-4 col-xs-4 thumb">
 
-   
-<img src={Scopus} alt="Scopus" />
-
-</div>
 <div class="col-lg-6 col-md-4 col-xs-4 thumb">
   
 
