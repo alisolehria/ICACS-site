@@ -7,14 +7,14 @@ import Home2021 from './2021/App2021.js';
 
 const Main = () => {
   return (
-    <BrowserRouter>
+
       <Switch> {/* The Switch decides which component to show based on the current URL.*/}
         
         {/* <Route exact path='/importantdates' component={ImportantDates}></Route> */}
-        <Route exact path='/prev/2021/*' component={Home2021}></Route>
-        <Route exact path='/*' component={Home2023}></Route>
+
+        <Route  path='/*' component={Home2021}></Route>
       </Switch>
-    </BrowserRouter>
+    
   );
 }
 
