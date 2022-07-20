@@ -15,7 +15,7 @@ import hwLogo from './assets/heriot-watt.jpg';
 
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link,
@@ -87,7 +87,7 @@ class Navbar2021 extends React.Component {
              <Link class="nav-link scroll-link"  to="/prev/2021/">Home</Link>
                 </li>
                 <li class="nav-item ">
-                   <Link class="nav-link scroll-link"  to="/prev/2021/callforpapers">Call for Papers</Link>
+                   <Link class="nav-link scroll-link"  to="/callforpapers">Call for Papers</Link>
                 </li>
                 <li class="nav-item">
                    <Link class="nav-link scroll-link"  to="/prev/2021/studentcompetition">Student Competition</Link>
@@ -146,7 +146,7 @@ class Navbar2021 extends React.Component {
            <Route exact path="/prev/2021/">
             <Home2021/>
           </Route>
-          <Route exact path="/prev/2021/callforpapers">
+          <Route exact path="/callforpapers">
             <CallForPapers/>
           </Route>
           <Route exact path="/prev/2021/studentcompetition">
