@@ -11,7 +11,7 @@ const Main = () => {
       <Switch> {/* The Switch decides which component to show based on the current URL.*/}
         
         {/* <Route exact path='/importantdates' component={ImportantDates}></Route> */}
-
+        <Route  path='/prev/2021/*' component={Home2021}></Route>
         <Route  path='/*' component={Home2021}></Route>
       </Switch>
     
