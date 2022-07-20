@@ -190,9 +190,7 @@ class Navbar2023 extends React.Component {
         <Route exact path="/instructionsforauthors">
           <Instructions/>
         </Route>
-        <Route  path='/prev/2021/*'>
-            <Home2021/>
-        </Route>
+  
 
 
 
