@@ -1,5 +1,5 @@
 import React from 'react';
-import ScrollIntoView from "./../components/ScrollIntoView";
+import ScrollIntoView from "../components/ScrollIntoView";
 import CallForPapers from './CallForPapers';
 import Organisers from './Organisers';
 import ImportantDates from './ImportantDates';
@@ -11,7 +11,7 @@ import TopContent from './TopContent';
 import StudentCompetition from './StudentCompetition';
 import Instructions from './Instructions';
 import './App2021.css';
-import hwLogo from './assets/heriot-watt.jpg';
+import hwLogo from './../2023/assets/heriot-watt.jpg';
 
 
 import {
@@ -77,14 +77,14 @@ class Navbar2021 extends React.Component {
 
 <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg navbar2021" style={this.state.bgColor}>
     <div class="container-fluid">
-        <Link class="navbar-brand" to="/prev/2021/">ACS21</Link>
+        <Link class="navbar-brand" to="/prev/2021">ACS21</Link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
           <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav ml-auto">
                               <li class="nav-item">
-             <Link class="nav-link scroll-link"  to="/prev/2021/">Home</Link>
+             <Link class="nav-link scroll-link"  to="/prev/2021">Home</Link>
                 </li>
                 <li class="nav-item ">
                    <Link class="nav-link scroll-link"  to="/prev/2021/callforpapers">Call for Papers</Link>
@@ -143,7 +143,7 @@ class Navbar2021 extends React.Component {
 
     <ScrollIntoView>
   <Switch>
-           <Route exact path="/prev/2021/">
+           <Route exact path="/prev/2021">
             <Home2021/>
           </Route>
           <Route exact path="/prev/2021/callforpapers">

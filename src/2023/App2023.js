@@ -12,7 +12,7 @@ import StudentCompetition from './StudentCompetition';
 import Instructions from './Instructions';
 import './App2023.css';
 import hwLogo from './assets/heriot-watt.jpg';
-import Home2021 from './../2021/App2021';
+import Home2021 from '../2021/App2021';
 
 import {
   BrowserRouter as Router,
@@ -72,7 +72,7 @@ class Navbar2023 extends React.Component {
    render() {
       return (
         <div>
-           <Router>
+          
 <div id = "testing1">
 
 <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg " style={this.state.bgColor}>
@@ -140,9 +140,9 @@ class Navbar2023 extends React.Component {
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
         <li class="nav-item">
-          <Link>
-            <a class="dropdown-item" onClick={() => {window.location.href="/prev/2021/"}}>2021</a>
-          </Link>
+       
+          <Link class="dropdown-item"  to="/prev/2021">2021</Link>
+       
         </li>
 
     
@@ -155,66 +155,9 @@ class Navbar2023 extends React.Component {
 </nav>
 </div>
 
-    <ScrollIntoView>
-  <Switch>
-           <Route exact path="/">
-            <Home2023/>
-          </Route>
-          <Route exact path="/callforpapers">
-            <CallForPapers/>
-          </Route>
-          {/* <Route exact path="/studentcompetition">
-          <StudentCompetition/>
-        </Route> */}
-           <Route exact path="/importantdates">
-            <ImportantDates/>
-          </Route>
-          <Route exact path="/technicalcommitee">
-           <TechnicalCommitee/>
-         </Route>
-         <Route exact path="/organisers">
-          <Organisers/>
-        </Route>
-          <Route exact path="/program">
-          <Program/>
-        </Route>
-
-          {/* <Route exact path="/registration">
-          <Registration/>
-        </Route> */}
-
-        <Route exact path="/location">
-          <Venue/>
-        </Route>
-
-        <Route exact path="/instructionsforauthors">
-          <Instructions/>
-        </Route>
-  
 
 
 
-
-        </Switch>
-              </ScrollIntoView>
-  </Router>
-
-  <footer class="footer-dark">
-    <div class = "container">
-    
-    <h2>Sponsors</h2>
-    <h3>Diamond Sponsors</h3>
-
-  
-            
-            <img  class="border" src={hwLogo} alt="Heriot-Watt Logo"  width="20%" heigh="20%" />
-            </div>
-
-            <hr class="mt-2 mb-3"/>
-    <p class="text-right">Copyright ACS© 2022 All rights reserved</p>
-   
-
-  </footer>
   </div>
       );
 
