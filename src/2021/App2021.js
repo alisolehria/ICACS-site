@@ -143,37 +143,37 @@ class Navbar2021 extends React.Component {
 
     <ScrollIntoView>
   <Switch>
-           <Route exact path="/">
+           <Route exact path="/prev/2021/">
             <Home2021/>
           </Route>
-          <Route exact path="/callforpapers">
+          <Route exact path="/prev/2021/callforpapers">
             <CallForPapers/>
           </Route>
-          <Route exact path="/studentcompetition">
+          <Route exact path="/prev/2021/studentcompetition">
           <StudentCompetition/>
         </Route>
-           <Route exact path="/importantdates">
+           <Route exact path="/prev/2021/importantdates">
             <ImportantDates/>
           </Route>
-          <Route exact path="/technicalcommitee">
+          <Route exact path="/prev/2021/technicalcommitee">
            <TechnicalCommitee/>
          </Route>
-         <Route exact path="/organisers">
+         <Route exact path="/prev/2021/organisers">
           <Organisers/>
         </Route>
-          <Route exact path="/program">
+          <Route exact path="/prev/2021/program">
           <Program/>
         </Route>
 
-          <Route exact path="/registration">
+          <Route exact path="/prev/2021/registration">
           <Registration/>
         </Route>
 
-        <Route exact path="/location">
+        <Route exact path="/prev/2021/location">
           <Venue/>
         </Route>
 
-        <Route exact path="/instructionsforauthors">
+        <Route exact path="/prev/2021/instructionsforauthors">
           <Instructions/>
         </Route>
 
