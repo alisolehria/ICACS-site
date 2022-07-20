@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, exact } from 'react-router-dom';
+import { HashRouter as Switch, Route, exact } from 'react-router-dom';
 
 import Home2023 from './2023/App2023.js';
 import ImportantDates from './2023/ImportantDates.js';

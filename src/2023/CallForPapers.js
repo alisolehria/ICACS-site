@@ -150,20 +150,20 @@ Authors will also need to sign the copyright transfer form provided by our publi
 </p>
 
 
+    {/* 
+    <div class = "row">
+    <h3>Student Competition</h3>
+    </div>
 
-<div class = "row">
-<h3>Student Competition</h3>
-</div>
+    <p>
+    BSc students/graduates are invited to submit their security projects and research. It could represent their:
+    <ul>
+    <li>Degree project and dissertation (graduation not earlier than academic year 2018/2019)</li>
+    <li>A project they did when they were students (graduation not earlier than April 2021)</li>
 
-<p>
-BSc students/graduates are invited to submit their security projects and research. It could represent their:
-<ul>
-<li>Degree project and dissertation (graduation not earlier than academic year 2018/2019)</li>
-<li>A project they did when they were students (graduation not earlier than April 2021)</li>
-
-</ul>
-</p>
-<p>You will find further information <Link to="/studentcompetition">here</Link>.</p>
+    </ul>
+    </p>
+    <p>You will find further information <Link to="/studentcompetition">here</Link>.</p> */}
 
 
 
