@@ -15,7 +15,7 @@ import hwLogo from './assets/heriot-watt.jpg';
 
 
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link,
