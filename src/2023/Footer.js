@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import hwLogo from './assets/heriot-watt.jpg';
+import hwLogo from './../assets/heriot-watt.jpg';
 
 class Footer2023 extends React.Component{
 

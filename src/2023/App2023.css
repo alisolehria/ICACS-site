@@ -151,7 +151,7 @@ h1, h2 {
 /***** Top content *****/
 
 .top-content {
-	background-image: url("./assets/tc.jpg") !important;
+	background-image: url("./../assets/tc.jpg") !important;
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center;
@@ -229,7 +229,7 @@ h1, h2 {
 
 
 .home_container {
-  background-image: url("./assets/page-carousel.jpg") !important;
+  background-image: url("./../assets/page-carousel.jpg") !important;
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;

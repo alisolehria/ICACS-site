@@ -151,7 +151,7 @@ h1, h2 {
 /***** Top content *****/
 
 .top-content2021 {
-	background-image: url("./assets/dubai-sky.jpg");
+	background-image: url("./../assets/dubai-sky.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center;
@@ -236,7 +236,7 @@ h1, h2 {
 
 
 .home_container {
-  background-image: url("./assets/page-carousel.jpg");
+  background-image: url("./../assets/page-carousel.jpg");
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;

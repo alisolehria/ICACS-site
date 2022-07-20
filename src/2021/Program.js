@@ -1,9 +1,9 @@
 import React from 'react';
 import PageCarousel from './PageCarousel';
-import keyNote from './assets/keynote.png';
-import keyNote1 from './assets/Anthony.jpg';
-import keyNote2 from './assets/Mohamed.jpg';
-import keyNote3 from './assets/Anthony.jpg';
+import keyNote from './../assets/keynote.png';
+import keyNote1 from './../assets/Anthony.jpg';
+import keyNote2 from './../assets/Mohamed.jpg';
+import keyNote3 from './../assets/Anthony.jpg';
 class Program extends React.Component {
  
     componentDidMount() {

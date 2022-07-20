@@ -1,7 +1,7 @@
 import React from 'react';
 import PageCarousel from './PageCarousel';
-import map from "./assets/map.png";
-import email from "./assets/email.png"
+import map from "./../assets/map.png";
+import email from "./../assets/email.png"
 
 class Venue extends React.Component {
    

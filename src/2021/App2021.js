@@ -11,7 +11,7 @@ import TopContent from './TopContent';
 import StudentCompetition from './StudentCompetition';
 import Instructions from './Instructions';
 import './App2021.css';
-import hwLogo from './../2023/assets/heriot-watt.jpg';
+import hwLogo from './../assets/heriot-watt.jpg';
 
 
 import {
