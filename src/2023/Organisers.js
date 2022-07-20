@@ -23,8 +23,7 @@ class Organisers extends React.Component {
   <h1>Steering Committee</h1>
   </div>
   <h2>Hani Ragab, Heriot-Watt University, UAE
-  <br/>Abdelmadjid Bouabdallah, University of Technologie of Compiegne, France
-  <br/>Hadj Batatia, Heriot-Watt University, UAE</h2>
+  <br/>Abdelmadjid Bouabdallah, University of Technologie of Compiegne, France</h2>
   
   <div class="row">
   <h1>Organizing Committee</h1>
