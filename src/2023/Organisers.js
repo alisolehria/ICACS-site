@@ -36,10 +36,6 @@ class Organisers extends React.Component {
     <br/>Ahcene Bounceur, Bretagne Occidentale University, France - Co-chair
     <br/>Prof. Madjid Merabti, University of Sharjah, UAE   
   <br/>Adrian Turcanu, Heriot-Watt University, UAE - Student Compeitition
-
-  <br/>Mohammad Hamdan, Heriot-Watt University, UAE
-  <br/>Abrar Ullah, Heriot-Watt University, UAE
-  <br/>Smitha Kumar, Heriot-Watt University, UAE
   <br/>Ali Muzaffar, Heriot-Watt University, UAE 
   </h2>
   </div>
