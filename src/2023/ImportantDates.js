@@ -50,7 +50,7 @@ class ImportantDates extends React.Component {
 
 <div class="event">
 
-<p>Paper submission deadline (extended)</p>
+<p>Paper submission deadline</p>
 <h2>TBC</h2>
 </div>
 
