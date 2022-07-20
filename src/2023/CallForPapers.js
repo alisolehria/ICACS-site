@@ -24,20 +24,9 @@ render(){
 
 
 </div>
-<div class="col-lg-4 thumb">
- 
-    <img src={Springer} alt="Springer" />
-
-</div>
 
 
 
-<div class="col-lg-4 thumb">
-
-   
-<img src={lecture} alt="lecture" />
-
-</div>
 
 
 
@@ -168,47 +157,11 @@ Authors will also need to sign the copyright transfer form provided by our publi
 
 
 </div>
-<div class ="row d-flex flex-wrap align-items-center">
-<div class="col-lg-4 col-md-4 col-xs-4 thumb">
- 
-    <img src={Springer} alt="Springer" />
-
-</div>
-
-
-
-<div class="col-lg-4 col-md-4 col-xs-4 thumb">
-
-   
-<img src={lecture} alt="lecture" />
-
-</div>
-<div class="col-lg-4     col-md-4 col-xs-4 thumb">
-
-   
-<img src={Scopus} alt="Scopus" />
-
-</div>
-</div>
-
-<br/>
-
-<div class ="row d-flex flex-wrap align-items-center">
 
 
 
 
 
-<div class="col-lg-6 col-md-4 col-xs-4 thumb">
-  
-
-    <img src={ISI} alt="ISI"  width="70%"  />
-
-</div>
-
-
-
-</div>
 
 
 
