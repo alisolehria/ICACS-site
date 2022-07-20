@@ -33,7 +33,7 @@ class ImportantDates extends React.Component {
 <PageCarousel title="Important Dates"/>
 <div class="container">
 <div id = "call" class = "callPapers">
-<h2> Conference: 29 Apirl 2023 </h2>
+<h2> Conference: 29 April 2023 </h2>
 <div class="row">
 
 <div class="col">
@@ -69,7 +69,7 @@ class ImportantDates extends React.Component {
 
 </div>
 
-<div class="col">
+{/* <div class="col">
 <div class="row">
 
 <h3>Poster Submission Dates</h3>
@@ -92,7 +92,7 @@ class ImportantDates extends React.Component {
 
 
 
-</div>
+</div> */}
 
 
 
