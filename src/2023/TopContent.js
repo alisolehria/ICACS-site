@@ -2,6 +2,9 @@ import React from 'react';
 import DateCountdown from 'react-date-countdown-timer';
 
 class TopContent extends React.Component {
+  componentDidMount() {
+    document.title = "ACS23";
+  }
     render(){
       return (
         
@@ -11,7 +14,7 @@ class TopContent extends React.Component {
           <div class="row">
               <div class="col-md-8 offset-md-2 text">
                   <h1 class="wow fadeInLeftBig"> International Conference on Applied CyberSecurity 2023 (ACS23)</h1>
-                  <h3 class="conference_date"> April 2023 | Dubai, UAE</h3>
+                  <h3 class="conference_date"> April 2023 | Heriot-Watt University Dubai, UAE</h3>
                   {/* <div id = "row" class="text timelabel">
    <h1>Time to Conference</h1>
   </div> */}
@@ -22,7 +25,7 @@ class TopContent extends React.Component {
      </div>
                   <div class="description wow fadeInLeftBig">
                       <p>
-  The International Conference on Applied CyberSecurity (ACS) aims to bring together researchers, practitioners, developers and students in the field of cybersecurity to exchange novelties, experience and ideas. </p>
+  The International Conference on Applied CyberSecurity (ACS) aims to bring together researchers, practitioners, developers and students in the field of cybersecurity to exchange experience and novel ideas. </p>
   
   <p>We invite original unpublished papers from academics, government and industry practitioners as well as research students on their innovations in both theory and practice of cybersecurity. Papers could be on original designs and concepts, techniques and mechanisms, as well as field applications. </p>
   

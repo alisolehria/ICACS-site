@@ -22,20 +22,20 @@ class Organisers extends React.Component {
     <div class="row">
   <h1>Steering Committee</h1>
   </div>
-  <h2>Hani Ragab, Heriot-Watt University, UAE
-  <br/>Abdelmadjid Bouabdallah, University of Technologie of Compiegne, France</h2>
+  <h2>Dr. Hani Ragab, Heriot-Watt University, UAE
+  <br/>Dr. Abdelmadjid Bouabdallah, University of Technologie of Compiegne, France</h2>
   
   <div class="row">
   <h1>Organizing Committee</h1>
   </div>
   <div class="multiple">
   <h2>
-  Hind Zantout, Heriot-Watt University, UAE - General chair
+  Dr. Hind Zantout, Heriot-Watt University, UAE - General chair
    
-    <br/> Hani Ragab, Heriot-Watt University, UAE - Co-Chair
-    <br/>Ahcene Bounceur, Bretagne Occidentale University, France - Co-chair
+    <br/>Dr. Hani Ragab, Heriot-Watt University, UAE - Co-Chair
+    <br/>Dr. Ahcene Bounceur, Bretagne Occidentale University, France - Co-chair
     <br/>Prof. Madjid Merabti, University of Sharjah, UAE   
-  <br/>Adrian Turcanu, Heriot-Watt University, UAE - Student Compeitition
+  <br/>Dr. Adrian Turcanu, Heriot-Watt University, UAE - Student Compeitition
   <br/>Ali Muzaffar, Heriot-Watt University, UAE 
   </h2>
   </div>

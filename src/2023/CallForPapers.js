@@ -66,7 +66,7 @@ render(){
           <li>Anonymity and privacy</li>
           <li>Security awareness, education and training</li>
           <li>Application security </li>
-          <li>Blockchains and distributed ledger security </li>
+          <li>Blockchain and distributed ledger security </li>
           <li>Cloud security </li>
           <li>Cyber physical systems security </li>
           <li>Distributed systems security </li>
