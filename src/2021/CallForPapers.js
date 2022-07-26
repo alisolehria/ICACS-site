@@ -1,9 +1,6 @@
 import React from 'react';
 import PageCarousel from './PageCarousel';
-import MDPI from "./../assets/MDPI.png";
-import Springer from "./../assets/Springer.png";
-import lecture from "./../assets/lecture-notes.jpg";
-import ISI from "./../assets/ISI.png";
+
 import Scopus from "./../assets/scopus.png"
 import { Link } from 'react-router-dom';
 class CallForPapers extends React.Component {
