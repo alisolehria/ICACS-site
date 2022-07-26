@@ -26,7 +26,7 @@ render(){
 </div>
 <div class="col-lg-4 thumb">
  
-    <img src={Springer} alt="Springer" />
+    <img src="https://cdn-images-1.medium.com/max/800/1*H7Pq3wD3b7gHKQQwXZlSRg.jpeg" alt="Springer" />
 
 </div>
 
@@ -171,7 +171,7 @@ BSc students/graduates are invited to submit their security projects and researc
 <div class ="row d-flex flex-wrap align-items-center">
 <div class="col-lg-4 col-md-4 col-xs-4 thumb">
  
-    <img src={Springer} alt="Springer" />
+    <img src="https://cdn-images-1.medium.com/max/800/1*H7Pq3wD3b7gHKQQwXZlSRg.jpeg" alt="Springer" />
 
 </div>
 
