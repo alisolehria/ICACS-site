@@ -11,7 +11,7 @@ import TopContent from './TopContent';
 import StudentCompetition from './StudentCompetition';
 import Instructions from './Instructions';
 import './App2021.css';
-import HwLogo from './../assets/springer.png';
+
 
 
 import {
