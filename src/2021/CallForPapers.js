@@ -35,7 +35,7 @@ render(){
 <div class="col-lg-4 thumb">
 
    
-<img src={lecture} alt="lecture" />
+<img src="https://media.springernature.com/lw150/springer-static/cover/series/15179.jpg?as=jpg" alt="lecture" />
 
 </div>
 
@@ -180,7 +180,7 @@ BSc students/graduates are invited to submit their security projects and researc
 <div class="col-lg-4 col-md-4 col-xs-4 thumb">
 
    
-<img src={lecture} alt="lecture" />
+<img src="https://media.springernature.com/lw150/springer-static/cover/series/15179.jpg?as=jpg" alt="lecture" />
 
 </div>
 <div class="col-lg-4     col-md-4 col-xs-4 thumb">
@@ -202,7 +202,7 @@ BSc students/graduates are invited to submit their security projects and researc
 <div class="col-lg-6 col-md-4 col-xs-4 thumb">
   
 
-    <img src={ISI} alt="ISI"  width="70%"  />
+    <img src="https://isindexing.com/isi//images/logo.png" alt="ISI"  width="70%"  />
 
 </div>
 

@@ -23,7 +23,7 @@ class Venue extends React.Component {
   
       <h3 class="text-center">Location</h3>
       <a href="https://goo.gl/maps/SL44kU9mrb7vCesT9" target="_blank">
-      <img class="mx-auto d-block" src={map} alt="Map"    width="75%" heigh="75%"/></a>
+      Google Maps</a>
       </div>
       <div class="col-sm">
             <h3 class="text-center">Contact</h3>

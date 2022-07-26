@@ -11,7 +11,7 @@ import TopContent from './TopContent';
 import StudentCompetition from './StudentCompetition';
 import Instructions from './Instructions';
 import './App2021.css';
-import hwLogo from './../assets/heriot-watt.jpg';
+import HwLogo from './../assets/springer.png';
 
 
 import {
@@ -192,7 +192,7 @@ class Navbar2021 extends React.Component {
 
   
             
-            <img  class="border" src={hwLogo} alt="Heriot-Watt Logo"  width="20%" heigh="20%" />
+            <img  class="border" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Heriot-Watt_University_logo.svg/1920px-Heriot-Watt_University_logo.svg.png" alt="Heriot-Watt Logo"  width="20%" heigh="20%" />
             </div>
 
             <hr class="mt-2 mb-3"/>
