@@ -19,12 +19,30 @@ render(){
     <div class = "container">
 <div id = "call" class = "callPapers">
 
+
 <div class ="row d-flex flex-wrap align-items-center">
 <div class="col-lg-3 thumb">
  
 
 
 </div>
+<div class="col-lg-4 thumb">
+ 
+    <img src="https://alll.fed.um.edu.mo/wp-content/uploads/2020/05/v1-400x100.png" alt="Springer" />
+
+</div>
+
+
+
+<div class="col-lg-4 thumb">
+
+   
+<img src="https://media.springernature.com/lw150/springer-static/cover/series/15179.jpg?as=jpg" alt="lecture" />
+
+</div>
+
+
+
 
 
 
@@ -159,7 +177,22 @@ Authors will also need to sign the copyright transfer form provided by our publi
 
 </div>
 
+<div class ="row d-flex flex-wrap align-items-center">
+<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+ 
+    <img src="https://alll.fed.um.edu.mo/wp-content/uploads/2020/05/v1-400x100.png" alt="Springer" />
 
+</div>
+
+
+
+<div class="col-lg-4 col-md-4 col-xs-4 thumb">
+
+   
+<img src="https://media.springernature.com/lw150/springer-static/cover/series/15179.jpg?as=jpg" alt="lecture" />
+
+</div>
+</div>
 
 
 
