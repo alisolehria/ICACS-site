@@ -28,7 +28,7 @@ render(){
 </div>
 <div class="col-lg-4 thumb">
  
-    <img src={{Springer}} alt="Springer" />
+    <img src="https://alll.fed.um.edu.mo/wp-content/uploads/2020/05/v1-400x100.png" alt="Springer" />
 
 </div>
 
@@ -37,7 +37,7 @@ render(){
 <div class="col-lg-4 thumb">
 
    
-<img src={{lecture}} alt="lecture" />
+<img src="https://media.springernature.com/lw150/springer-static/cover/series/15179.jpg?as=jpg" alt="lecture" />
 
 </div>
 
@@ -180,7 +180,7 @@ Authors will also need to sign the copyright transfer form provided by our publi
 <div class ="row d-flex flex-wrap align-items-center">
 <div class="col-lg-4 col-md-4 col-xs-4 thumb">
  
-    <img src={{Springer}} alt="Springer" />
+    <img src="https://alll.fed.um.edu.mo/wp-content/uploads/2020/05/v1-400x100.png" alt="Springer" />
 
 </div>
 
@@ -189,7 +189,7 @@ Authors will also need to sign the copyright transfer form provided by our publi
 <div class="col-lg-4 col-md-4 col-xs-4 thumb">
 
    
-<img src={{lecture}}alt="lecture" />
+<img src="https://media.springernature.com/lw150/springer-static/cover/series/15179.jpg?as=jpg" alt="lecture" />
 
 </div>
 </div>
