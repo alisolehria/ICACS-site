@@ -43,27 +43,27 @@ class ImportantDates extends React.Component {
 </div>
 
 {/* <div class="event">
-<p>Paper submission deadline</p>
+<p>Conference paper/contribution deadline</p>
 <h2>8th August 2021</h2>
 </div> */}
 
 
 <div class="event">
 
-<p>Paper submission deadline</p>
-<h2>TBC</h2>
+<p>Conference paper/contribution deadline</p>
+<h2>3rd January 2023</h2>
 </div>
 
 
 <div class="event">
-<p>Paper acceptance notification</p>
-<h2>TBC</h2>
+<p>Conference paper notification</p>
+<h2>28th January 2023</h2>
 </div>
 
 
 <div class="event">
-<p>Camera-ready submission (strict)</p>
-<h2>TBC</h2>
+<p>Conference paper camera ready deadline (strict)</p>
+<h2>10th Feburary 2023</h2>
 
 </div>
 
