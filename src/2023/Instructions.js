@@ -29,7 +29,7 @@ class Instructions extends React.Component {
       
       <h4>Paper Submission</h4>
 
-      <p>Both full-length and short papers are to be submitted to <a href="https://easychair.org/conferences/?conf=acs21" target="_blank">EasyChair</a>. Please submit your papers as PDF files with no author identification (no names, emails, affiliations, etc.) You will be able to include that information in the camera-ready version. Accepted papers will need to provide their source files, as either Word or Latex zipped projects along with the final PDF. </p>
+      <p>Both full-length and short papers are to be submitted to <a href="https://easychair.org/conferences/?conf=acs23" target="_blank">EasyChair</a>. Please submit your papers as PDF files with no author identification (no names, emails, affiliations, etc.) You will be able to include that information in the camera-ready version. Accepted papers will need to provide their source files, as either Word or Latex zipped projects along with the final PDF. </p>
 
       <h4>Paper Formatting</h4>
 
