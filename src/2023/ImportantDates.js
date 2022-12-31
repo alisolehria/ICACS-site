@@ -51,7 +51,7 @@ class ImportantDates extends React.Component {
 <div class="event">
 
 <p>Conference paper/contribution deadline</p>
-<h2>3rd January 2023</h2>
+<h2>15th January 2023</h2>
 </div>
 
 
