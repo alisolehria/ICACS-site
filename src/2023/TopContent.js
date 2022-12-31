@@ -14,7 +14,7 @@ class TopContent extends React.Component {
           <div class="row">
               <div class="col-md-8 offset-md-2 text">
                   <h1 class="wow fadeInLeftBig"> International Conference on Applied CyberSecurity 2023 (ACS23)</h1>
-                  <h3 class="conference_date"> April 2023 | Heriot-Watt University Dubai, UAE</h3>
+                  <h3 class="conference_date">29th April 2023 | Heriot-Watt University Dubai, UAE</h3>
                   {/* <div id = "row" class="text timelabel">
    <h1>Time to Conference</h1>
   </div> */}
