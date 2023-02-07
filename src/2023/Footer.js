@@ -19,7 +19,7 @@ class Footer2023 extends React.Component{
                 </div>
         
                 <hr class="mt-2 mb-3"/>
-        <p class="text-right">Copyright ACS© 2022 All rights reserved</p>
+        <p class="text-right">Copyright ACS© 2023 All rights reserved</p>
         
         
         </footer>
