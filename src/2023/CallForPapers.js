@@ -126,7 +126,7 @@ Full-length papers are limited to 10 pages and present mature work.
 
 Short papers are limited to 7 pages and contain intermediary results that might not have been extensively evaluated.
 
-Both types of papers are to be submitted to <a href = "https://easychair.org/conferences/?conf=acs21" target = "_blank"> EasyChair</a>.
+Both types of papers are to be submitted to <a href = "https://easychair.org/conferences/?conf=acs23" target = "_blank"> EasyChair</a>.
 </p>
 
 <p>
