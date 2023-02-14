@@ -33,9 +33,8 @@ class Organisers extends React.Component {
   Dr. Hind Zantout, Heriot-Watt University, UAE - General chair
    
     <br/>Dr. Hani Ragab, Heriot-Watt University, UAE - Co-Chair
-    <br/>Dr. Ahcene Bounceur, Bretagne Occidentale University, France - Co-chair
     <br/>Prof. Madjid Merabti, University of Sharjah, UAE   
-  <br/>Dr. Adrian Turcanu, Heriot-Watt University, UAE - Student Compeitition
+  <br/>Dr. Adrian Turcanu, Heriot-Watt University, UAE   
   <br/>Ali Muzaffar, Heriot-Watt University, UAE 
   </h2>
   </div>
