@@ -26,7 +26,9 @@ class TechnicalCommitee extends React.Component {
           <li>Dr. Eduard Paul Enoiu, Mälardalen University, Sweden</li>
           <li>Dr. Mohamed Wiem Mkaouer, Rochester Institute of Technology, New York, United State</li>
   <li>Dr. Arif Ali Khan, Nanjing University of Aeronautics and Astronautics, China</li>
+  <li>Dr. Lamia Hamza, University of Bejaia, Algeria</li>
   <li>Dr. Rashid Naseem, Pak-Austria Fachhochschule Institute of Applied Sciences and Technology, Pakistan</li>
+  <li>Dr. Razika Sait, University of Bejaia, Algeria</li>
   <li>Dr. Monther Aldwairi,  Zayed University, United Arab Emirates</li>
   <li>Dr. Djedjiga Mouheb, University of Sharjah, United Arab Emirates</li>
   <li>Dr. Mike Just, Heriot-Watt University, UK</li>
