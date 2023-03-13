@@ -21,20 +21,21 @@ class TechnicalCommitee extends React.Component {
   <div class ="row">
   
         <ul>
-         <li>Dr. Sebastiano Panichella, Zurich University of Applied Science, Switzerland</li>
+       
           <li>Prof. Abdelmadjid BouabdAllah, University of technology of compiegne, France</li>
+        <li>Dr. Hatem Ahriz, from Robert Gordon University, UK</li>
           <li>Dr. Eduard Paul Enoiu, Mälardalen University, Sweden</li>
           <li>Dr. Mohamed Wiem Mkaouer, Rochester Institute of Technology, New York, United State</li>
-  <li>Dr. Arif Ali Khan, Nanjing University of Aeronautics and Astronautics, China</li>
+  <li>Salih Ismail, Curtin University, UAE</li>
   <li>Dr. Lamia Hamza, University of Bejaia, Algeria</li>
   <li>Dr. Rashid Naseem, Pak-Austria Fachhochschule Institute of Applied Sciences and Technology, Pakistan</li>
-  <li>Dr. Razika Sait, University of Bejaia, Algeria</li>
+  <li>Dr. Djamila Zamouche, University of Bejaia, Algeria</li>
   <li>Dr. Monther Aldwairi,  Zayed University, United Arab Emirates</li>
   <li>Dr. Djedjiga Mouheb, University of Sharjah, United Arab Emirates</li>
   <li>Dr. Mike Just, Heriot-Watt University, UK</li>
   <li>Dr. Lilia Georgieva, Heriot-Watt University, UK</li>
   <li>Prof. Mohammed Ould Khaoua, University of Blida, Algeria</li>
-  <li>Salih Ismail, Curtin University, UAE</li>
+
   <li>Dr. Baber Majid Bhatti, University of South Australia.</li>
   <li>Dr. Qasem Obeidat, University of Bahrain, Bahrain.</li>
   <li>Dr. Nasir Mehmood Minhas, Blekinge Institute of Technology, Sweden</li>
