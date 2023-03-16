@@ -23,7 +23,7 @@ class TechnicalCommitee extends React.Component {
         <ul>
        
           <li>Prof. Abdelmadjid BouabdAllah, University of technology of compiegne, France</li>
-        <li>Dr. Hatem Ahriz, from Robert Gordon University, UK</li>
+        <li>Dr. Hatem Ahriz, Robert Gordon University, UK</li>
           <li>Dr. Eduard Paul Enoiu, Mälardalen University, Sweden</li>
           <li>Dr. Mohamed Wiem Mkaouer, Rochester Institute of Technology, New York, United State</li>
   <li>Salih Ismail, Curtin University, UAE</li>
