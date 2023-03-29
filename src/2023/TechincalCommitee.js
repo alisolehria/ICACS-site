@@ -60,6 +60,7 @@ class TechnicalCommitee extends React.Component {
   <li>Dr. Irfan Mehmood, University of Bradford, UK</li>
   <li>Dr. Khan Muhammad, Sejong University, South Korea</li>
   <li>Dr. Asad Khattak, Zayed University, UAE</li>
+        <li>Razika Sait, University of Bejaia, Algeria</li>
   <li>Dr. Wajahat Ali Khan, University of Derby, UK</li>
   <li>Dr. Zunera Jalil, Air University Islamabad, Pakistan</li>
   <li>Dr. Asad Habib, Kohat university of science and technology, Kohat,Pakistan</li>
