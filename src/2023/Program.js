@@ -32,7 +32,7 @@ class Program extends React.Component {
 <h4> Mr. Thomas Heuckeroth</h4>
 <p>SVP IT Infrastructure & CyberSecurity, Group CISO, The Emirates Group, UAE</p>
 
-<p>1005 – 1115</p>
+<p>10:05 – 11:15</p>
 </div>
 </div>
 
@@ -48,7 +48,7 @@ class Program extends React.Component {
 
 <p>CEO at AIDirections, UAE</p>
 <br></br>
-<p>1130 - 1215</p> 
+<p>11:30 - 12:15</p> 
 </div>
 </div>
 </div></div>
