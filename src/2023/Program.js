@@ -23,11 +23,12 @@ class Program extends React.Component {
 <div class="col-lg-6 col-md-6 col-xs-6 thumb">
 <div class="row">
   
-{/* <img class="mx-auto d-block" id="keynote" src="https://acsconf.org/static/media/Anthony.97915a82.jpg" alt="Keynote Speaker"   /> */}
+<img class="mx-auto d-block" id="keynote" src="./keynote-1-23.jpg" alt="Keynote Speaker"   />
 </div>
 <br/>
 
 <div class="text-center">
+
 <h4> Mr. Thomas Heuckeroth</h4>
 <p>SVP IT Infrastructure & CyberSecurity, Group CISO, The Emirates Group, UAE</p>
 
@@ -38,7 +39,7 @@ class Program extends React.Component {
 <div class="col-lg-6 col-md-6 col-xs-6 thumb">
 <div class="row">
   
-{/* <img class="mx-auto d-block" id="keynote" src="https://www.rsaconference.com/-/media/project/rsac/rsac-website/expert-images/2021/02/02/04/33/biju-hameed.jpg" alt="Keynote Speaker"    /> */}
+<img class="mx-auto d-block" id="keynote" src="./keynote-2-23.jpg" alt="Keynote Speaker"    />
 </div>
 <br/>
 
