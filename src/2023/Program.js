@@ -58,29 +58,28 @@ class Program extends React.Component {
 </div>
 <p>The program can be downloaded in PDF fromat from <a href="./ACS23 Programme.pdf" download>here.</a></p> 
 <h3>All timings are Gulf Standard Time</h3>
-<table border="1" cellspacing="0" cellpadding="0" width="100%">
-<tbody>
-<tr>
-  <td width="642" nowrap="" colspan="2" valign="top">
-      <p>
+
+      <h4>
           <strong>
               Saturday 29th April (Face to Face and
               Online)
           </strong>
-      </p>
-  </td>
-</tr>
+      </h4>
+  
+<table border="1" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+
 <tr>
-  <td width="642" nowrap="" colspan="2" valign="top">
+  <td width="642" nowrap="" colspan="2" valign="top" align="left">
       <p>
           <strong>Opening and keynotes, room 2.09 and online</strong>
       </p>
   </td>
 </tr>
 <tr>
-  <td width="113" nowrap="" valign="top">
+  <td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>0945 - 1000</strong>
+          <strong>09:45 - 10:00</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -90,9 +89,9 @@ class Program extends React.Component {
   </td>
 </tr>
 <tr>
-  <td width="113" nowrap="" valign="top">
+  <td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>1000 – 1005</strong>
+          <strong>10:00 – 10:05</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -102,9 +101,9 @@ class Program extends React.Component {
   </td>
 </tr>
 <tr>
-  <td width="113" nowrap="" valign="top">
+  <td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>1005 – 1115</strong>
+          <strong>10:05 – 11:15</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -114,9 +113,9 @@ class Program extends React.Component {
   </td>
 </tr>
 <tr>
-  <td width="113" nowrap="" valign="top">
+  <td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>1115 – 1130</strong>
+          <strong>11:15 – 11:30</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -126,9 +125,9 @@ class Program extends React.Component {
   </td>
 </tr>
 <tr>
-  <td width="113" nowrap="" valign="top">
+  <td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>1130 - 1215</strong>
+          <strong>11:30 - 12:15</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -139,9 +138,9 @@ class Program extends React.Component {
 
 </tr>
 <tr>
-<td width="113" nowrap="" valign="top">
+<td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>1215 – 1300</strong>
+          <strong>12:15 – 13:00</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -151,16 +150,16 @@ class Program extends React.Component {
   </td>
 </tr>
 <tr>
-  <td width="642" nowrap="" colspan="2" valign="top">
+  <td width="642" nowrap="" colspan="2" valign="top" align="left">
       <p>
-          <strong>Session 1: Advances in CyberSecurity, room 2.09 and online. resenters are highlighted.</strong>
+          <strong>Session 1: Advances in CyberSecurity, room 2.09 and online. Presenters are highlighted.</strong>
       </p>
   </td>
 </tr>
 <tr>
-  <td width="113" nowrap="" valign="top">
+  <td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>1300 – 1420</strong>
+          <strong>13:00 – 14:20</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -175,9 +174,9 @@ class Program extends React.Component {
   </td>
 </tr>
 <tr>
-  <td width="113" nowrap="" valign="top">
+  <td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>1420 – 1440</strong>
+          <strong>14:20 – 14:40</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -190,9 +189,9 @@ class Program extends React.Component {
   </td>
 </tr>
 <tr>
-<td width="113" nowrap="" valign="top">
+<td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>1440 – 1500</strong>
+          <strong>14:40 – 15:00</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -205,12 +204,12 @@ class Program extends React.Component {
 </tr>
 
 <tr>
-<td width="113" nowrap="" valign="top">
+<td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>1440 – 1500</strong>
+          <strong>14:40 – 15:00</strong>
       </p>
   </td>
-  <td width="529" nowrap="" valign="top">
+  <td width="529" nowrap="" valign="top" align="left">
       <p>
       Cyberbullying: A BERT Bi-LSTM Solution for Hate Speech Detection
       
@@ -221,9 +220,9 @@ class Program extends React.Component {
 </tr>
 
 <tr>
-<td width="113" nowrap="" valign="top">
+<td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>1420 – 1430</strong>
+          <strong>14:20 – 14:30</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -238,16 +237,16 @@ class Program extends React.Component {
 
 
 <tr>
-  <td width="642" nowrap="" colspan="2" valign="top">
+  <td width="642" nowrap="" colspan="2" valign="top" align="left">
       <p>
           <strong>Session 2: AI for Cybersecurity, room 2.09 and online. Presenters are highlighted.</strong>
       </p>
   </td>
 </tr>
 <tr>
-  <td width="113" nowrap="" valign="top">
+  <td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>1430 – 1450</strong>
+          <strong>14:30 – 14:50</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -262,9 +261,9 @@ class Program extends React.Component {
   </td>
 </tr>
 <tr>
-  <td width="113" nowrap="" valign="top">
+  <td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>1450 – 1510</strong>
+          <strong>14:50 – 15:10</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -278,9 +277,9 @@ class Program extends React.Component {
   </td>
 </tr>
 <tr>
-  <td width="113" nowrap="" valign="top">
+  <td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>1510 – 1530</strong>
+          <strong>15:10 – 15:30</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -294,12 +293,12 @@ class Program extends React.Component {
   </td>
 </tr>
 <tr>
-  <td width="113" nowrap="" valign="top">
+  <td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>1530 – 1535</strong>
+          <strong>15:30 – 15:35</strong>
       </p>
   </td>
-  <td width="529" nowrap="" valign="top">
+  <td width="529" nowrap="" valign="top" align="left">
   <p>
           <strong>Concluding notes</strong>
       </p>
