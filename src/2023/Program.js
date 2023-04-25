@@ -212,7 +212,7 @@ class Program extends React.Component {
   </td>
   <td width="529" nowrap="" valign="top">
       <p>
-      Cyberbullying  A BERT Bi-LSTM Solution for Hate Speech Detection
+      Cyberbullying: A BERT Bi-LSTM Solution for Hate Speech Detection
       
       </p><p>          <em>
       <strong>Sihem Nouas</strong>, Fatima Boumahdi, Amina Madani, and Fouaz Berrhail        </em>
