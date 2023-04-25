@@ -47,7 +47,7 @@ class Program extends React.Component {
 <h4>Dr. Angelika Eksteen</h4>
 
 <p>CEO at AIDirections, UAE</p>
-
+<br></br>
 <p>1130 - 1215</p> 
 </div>
 </div>
