@@ -159,7 +159,7 @@ class Program extends React.Component {
 <tr>
   <td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>13:00 – 14:20</strong>
+          <strong>13:00 – 13:20</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -176,7 +176,7 @@ class Program extends React.Component {
 <tr>
   <td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>14:20 – 14:40</strong>
+          <strong>13:20 – 13:40</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -191,7 +191,7 @@ class Program extends React.Component {
 <tr>
 <td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>14:40 – 15:00</strong>
+          <strong>13:40 – 14:00</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top">
@@ -206,7 +206,7 @@ class Program extends React.Component {
 <tr>
 <td width="113" nowrap="" valign="top" align="left">
       <p>
-          <strong>14:40 – 15:00</strong>
+          <strong>14:00 – 14:20</strong>
       </p>
   </td>
   <td width="529" nowrap="" valign="top" align="left">
