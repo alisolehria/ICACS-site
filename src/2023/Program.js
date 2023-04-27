@@ -72,7 +72,7 @@ class Program extends React.Component {
 <tr>
   <td width="642" nowrap="" colspan="2" valign="top" align="left">
       <p>
-          <strong>Opening and keynotes, room 2.09 and online</strong>
+          <strong>Opening and keynotes, room 2.09 and online, link: <a href="https://events.teams.microsoft.com/event/1553cbf0-a764-4cad-bdb1-14b99cf2e2a4@6c425ff2-6865-42df-a4db-8e6af634813d" targe="_blank">Teams invite</a></strong>
       </p>
   </td>
 </tr>
@@ -152,7 +152,7 @@ class Program extends React.Component {
 <tr>
   <td width="642" nowrap="" colspan="2" valign="top" align="left">
       <p>
-          <strong>Session 1: Advances in CyberSecurity, room 2.09 and online. Presenters are highlighted.</strong>
+          <strong>Session 1: Advances in CyberSecurity, room 2.09 and online, link: <a href="https://events.teams.microsoft.com/event/1553cbf0-a764-4cad-bdb1-14b99cf2e2a4@6c425ff2-6865-42df-a4db-8e6af634813d" targe="_blank">Teams invite</a>. Presenters are highlighted.</strong>
       </p>
   </td>
 </tr>
@@ -239,7 +239,7 @@ class Program extends React.Component {
 <tr>
   <td width="642" nowrap="" colspan="2" valign="top" align="left">
       <p>
-          <strong>Session 2: AI for Cybersecurity, room 2.09 and online. Presenters are highlighted.</strong>
+          <strong>Session 2: AI for Cybersecurity, room 2.09 and online, link: <a href="https://events.teams.microsoft.com/event/1553cbf0-a764-4cad-bdb1-14b99cf2e2a4@6c425ff2-6865-42df-a4db-8e6af634813d" targe="_blank">Teams invite</a> . Presenters are highlighted.</strong>
       </p>
   </td>
 </tr>
