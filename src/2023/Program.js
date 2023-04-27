@@ -168,7 +168,7 @@ class Program extends React.Component {
       </p>
       <p>
           <em>
-          Mostefa Kara, Konstantinos Karampidis, Zaoui~Sayah, <strong>Abdelkader Laouid</strong>, Giorgos Papadourakis, Mohammad Nadir Abid
+          Mostefa Kara, Konstantinos Karampidis, Zaoui Sayah, <strong>Abdelkader Laouid</strong>, Giorgos Papadourakis, Mohammad Nadir Abid
           </em>
       </p>
   </td>
@@ -209,7 +209,7 @@ class Program extends React.Component {
           <strong>14:00 – 14:20</strong>
       </p>
   </td>
-  <td width="529" nowrap="" valign="top" align="left">
+  <td width="529" nowrap="" valign="top">
       <p>
       Cyberbullying: A BERT Bi-LSTM Solution for Hate Speech Detection
       
